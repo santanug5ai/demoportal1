@@ -295,117 +295,260 @@ app.post('/api/chat', async (req, res) => {
       suggestions: []
     };
 
-    // Portfolio related
-    if (lowerMessage.includes('portfolio') || lowerMessage.includes('use case') || lowerMessage.includes('case stud')) {
+    // Portfolio related - with intelligent filtering
+    if (lowerMessage.includes('portfolio') || lowerMessage.includes('solution') || lowerMessage.includes('use case') || lowerMessage.includes('case stud')) {
       const data = await readJSON('portfolio.json');
+      let filtered = [];
+      let categoryFound = '';
 
-      // Check for specific categories
-      if (lowerMessage.includes('ai') || lowerMessage.includes('ml') || lowerMessage.includes('machine learning')) {
-        const filtered = data.filter(p => p.category.toLowerCase().includes('ai') || p.category.toLowerCase().includes('ml'));
+      // AI/ML - specific keywords
+      if (lowerMessage.match(/\b(ai|ml|machine learning|artificial intelligence|cognitive|neural|deep learning)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('ai') ||
+          p.category.toLowerCase().includes('ml') ||
+          p.title.toLowerCase().includes('ai') ||
+          p.title.toLowerCase().includes('cognitive') ||
+          p.description.toLowerCase().includes('machine learning')
+        );
+        categoryFound = 'AI/ML';
+      }
+      // Cloud - specific keywords
+      else if (lowerMessage.match(/\b(cloud|aws|azure|gcp|migration|serverless)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('cloud') ||
+          p.title.toLowerCase().includes('cloud') ||
+          (p.technologies && p.technologies.some(tech => ['AWS', 'Azure', 'GCP'].includes(tech)))
+        );
+        categoryFound = 'Cloud';
+      }
+      // Blockchain - specific keywords
+      else if (lowerMessage.match(/\b(blockchain|crypto|smart contract|distributed ledger|hyperledger|ethereum)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('blockchain') ||
+          p.title.toLowerCase().includes('blockchain')
+        );
+        categoryFound = 'Blockchain';
+      }
+      // IoT - specific keywords
+      else if (lowerMessage.match(/\b(iot|internet of things|sensor|device|edge computing)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('iot') ||
+          p.title.toLowerCase().includes('iot') ||
+          p.description.toLowerCase().includes('sensor')
+        );
+        categoryFound = 'IoT';
+      }
+      // Security - specific keywords
+      else if (lowerMessage.match(/\b(security|cybersecurity|fraud|threat|soc|siem)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('security') ||
+          p.title.toLowerCase().includes('security') ||
+          p.title.toLowerCase().includes('fraud')
+        );
+        categoryFound = 'Security';
+      }
+      // Automation/RPA - specific keywords
+      else if (lowerMessage.match(/\b(automation|rpa|robotic process|bot)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('automation') ||
+          p.title.toLowerCase().includes('automation') ||
+          p.title.toLowerCase().includes('rpa')
+        );
+        categoryFound = 'Automation';
+      }
+      // Data Analytics - specific keywords
+      else if (lowerMessage.match(/\b(data analytics|business intelligence|bi|analytics|data lake)\b/i)) {
+        filtered = data.filter(p =>
+          p.category.toLowerCase().includes('data analytics') ||
+          p.title.toLowerCase().includes('analytics') ||
+          p.title.toLowerCase().includes('intelligence')
+        );
+        categoryFound = 'Data Analytics';
+      }
+      // TCS CMI specific
+      else if (lowerMessage.match(/\b(cmi|cognitive market insights|tcs cmi)\b/i)) {
+        filtered = data.filter(p =>
+          p.id.includes('CMI') ||
+          p.title.includes('TCS CMI') ||
+          p.description.includes('TCS CMI') ||
+          (p.technologies && p.technologies.includes('TCS CMI'))
+        );
+        categoryFound = 'TCS CMI';
+      }
+      // Show limited set if no specific category and explicitly asked for "all"
+      else if (lowerMessage.match(/\b(all|show all|list all|everything)\b/i) || lowerMessage === 'portfolio' || lowerMessage === 'portfolios') {
+        filtered = data.slice(0, 6); // Show only first 6, not all
+        categoryFound = 'Overview';
+      }
+
+      if (filtered.length > 0) {
         response = {
           intent: 'view_portfolio',
           responseType: 'cards',
           data: filtered,
-          text: `I found ${filtered.length} AI/ML portfolio items with relevant use cases and case studies.`,
-          suggestions: ['Show more details', 'View certifications', 'Request engagement']
-        };
-      } else if (lowerMessage.includes('cloud')) {
-        const filtered = data.filter(p => p.category.toLowerCase().includes('cloud'));
-        response = {
-          intent: 'view_portfolio',
-          responseType: 'cards',
-          data: filtered,
-          text: `I found ${filtered.length} cloud-related portfolio items.`,
-          suggestions: ['Show skills required', 'View projects', 'Request consultant']
-        };
-      } else if (lowerMessage.includes('blockchain')) {
-        const filtered = data.filter(p => p.category.toLowerCase().includes('blockchain'));
-        response = {
-          intent: 'view_portfolio',
-          responseType: 'cards',
-          data: filtered,
-          text: `I found ${filtered.length} blockchain portfolio items.`,
-          suggestions: ['Show implementation details', 'View skills', 'Contact team']
+          text: categoryFound === 'Overview'
+            ? `Here are ${filtered.length} featured portfolio items. Ask about specific categories like AI/ML, Cloud, or Security for more.`
+            : `I found ${filtered.length} ${categoryFound} portfolio item${filtered.length > 1 ? 's' : ''} with detailed use cases and case studies.`,
+          suggestions: categoryFound === 'Overview'
+            ? ['Show AI/ML solutions', 'Show Cloud solutions', 'Show TCS CMI solutions']
+            : ['Show more details', 'View related skills', 'Request engagement']
         };
       } else {
         response = {
           intent: 'view_portfolio',
-          responseType: 'cards',
-          data: data.slice(0, 10),
-          text: `Here are our top portfolio items with use cases and case studies. We have solutions across AI/ML, Cloud, Blockchain, IoT, and more.`,
-          suggestions: ['Filter by AI/ML', 'Filter by Cloud', 'Filter by Security']
+          responseType: 'text',
+          data: null,
+          text: `I couldn't find any portfolio items matching "${message}". Try asking about: AI/ML, Cloud, Blockchain, IoT, Security, Automation, or TCS CMI solutions.`,
+          suggestions: ['Show AI/ML portfolios', 'Show Cloud portfolios', 'Show TCS CMI solutions']
         };
       }
     }
-    // Skills related
-    else if (lowerMessage.includes('skill') || lowerMessage.includes('expertise') || lowerMessage.includes('competenc')) {
+    // Skills related - with intelligent filtering
+    else if (lowerMessage.match(/\b(skill|expertise|competenc|capability|proficiency)\b/i)) {
       const data = await readJSON('skills.json');
+      let filtered = [];
+      let categoryFound = '';
 
-      if (lowerMessage.includes('cloud') || lowerMessage.includes('aws') || lowerMessage.includes('azure')) {
-        const filtered = data.filter(s =>
+      // Cloud skills
+      if (lowerMessage.match(/\b(cloud|aws|azure|gcp)\b/i)) {
+        filtered = data.filter(s =>
           s.name.toLowerCase().includes('cloud') ||
           s.name.toLowerCase().includes('aws') ||
-          s.name.toLowerCase().includes('azure')
+          s.name.toLowerCase().includes('azure') ||
+          (s.relatedTechnologies && s.relatedTechnologies.some(tech => tech.toLowerCase().includes('cloud')))
         );
-        response = {
-          intent: 'view_skills',
-          responseType: 'cards',
-          data: filtered,
-          text: `I found ${filtered.length} cloud-related skills in our portfolio.`,
-          suggestions: ['View certifications', 'Show all skills', 'Request expert']
-        };
-      } else if (lowerMessage.includes('ai') || lowerMessage.includes('ml')) {
-        const filtered = data.filter(s =>
-          s.description.toLowerCase().includes('ai') ||
-          s.description.toLowerCase().includes('ml') ||
+        categoryFound = 'Cloud';
+      }
+      // AI/ML skills
+      else if (lowerMessage.match(/\b(ai|ml|machine learning|artificial intelligence|data science)\b/i)) {
+        filtered = data.filter(s =>
+          s.name.toLowerCase().includes('ai') ||
+          s.name.toLowerCase().includes('ml') ||
+          s.name.toLowerCase().includes('machine learning') ||
           s.description.toLowerCase().includes('machine learning')
         );
+        categoryFound = 'AI/ML';
+      }
+      // DevOps skills
+      else if (lowerMessage.match(/\b(devops|ci\/cd|kubernetes|docker|jenkins)\b/i)) {
+        filtered = data.filter(s =>
+          s.name.toLowerCase().includes('devops') ||
+          s.name.toLowerCase().includes('kubernetes') ||
+          s.name.toLowerCase().includes('docker')
+        );
+        categoryFound = 'DevOps';
+      }
+      // Programming skills
+      else if (lowerMessage.match(/\b(programming|coding|development|java|python|javascript)\b/i)) {
+        filtered = data.filter(s =>
+          s.category.toLowerCase().includes('technical') &&
+          (s.name.toLowerCase().includes('development') ||
+           s.name.toLowerCase().includes('programming') ||
+           (s.relatedTechnologies && s.relatedTechnologies.some(tech =>
+             ['Java', 'Python', 'JavaScript', 'C++'].includes(tech)
+           )))
+        );
+        categoryFound = 'Programming';
+      }
+      // All skills - only show limited set
+      else if (lowerMessage.match(/\b(all|show all|list)\b/i) || lowerMessage === 'skills') {
+        filtered = data.slice(0, 6);
+        categoryFound = 'Overview';
+      }
+
+      if (filtered.length > 0) {
         response = {
           intent: 'view_skills',
           responseType: 'cards',
           data: filtered,
-          text: `I found ${filtered.length} AI/ML related skills.`,
-          suggestions: ['View related certifications', 'Show projects', 'Request SME']
+          text: categoryFound === 'Overview'
+            ? `Here are ${filtered.length} featured skills. Ask about specific categories like Cloud, AI/ML, or DevOps for more.`
+            : `I found ${filtered.length} ${categoryFound} skill${filtered.length > 1 ? 's' : ''} in our portfolio.`,
+          suggestions: categoryFound === 'Overview'
+            ? ['Show Cloud skills', 'Show AI/ML skills', 'Show DevOps skills']
+            : ['View certifications', 'Show related portfolios', 'Request expert']
         };
       } else {
         response = {
           intent: 'view_skills',
-          responseType: 'cards',
-          data: data.slice(0, 10),
-          text: `Here are our top skills across technical, domain, and soft skills categories.`,
-          suggestions: ['Filter by category', 'Show high-demand skills', 'View certifications']
+          responseType: 'text',
+          data: null,
+          text: `I couldn't find any skills matching "${message}". Try asking about: Cloud, AI/ML, DevOps, Programming, or Domain expertise.`,
+          suggestions: ['Show Cloud skills', 'Show AI/ML skills', 'Show all skills']
         };
       }
     }
-    // Certifications related
-    else if (lowerMessage.includes('certif') || lowerMessage.includes('training')) {
+    // Certifications related - with intelligent filtering
+    else if (lowerMessage.match(/\b(certif|training|credential)\b/i)) {
       const data = await readJSON('certifications.json');
+      let filtered = [];
+      let categoryFound = '';
 
-      if (lowerMessage.includes('aws')) {
-        const filtered = data.filter(c => c.provider.toLowerCase().includes('aws') || c.name.toLowerCase().includes('aws'));
+      // AWS certifications
+      if (lowerMessage.match(/\b(aws|amazon)\b/i)) {
+        filtered = data.filter(c =>
+          c.provider.toLowerCase().includes('aws') ||
+          c.name.toLowerCase().includes('aws')
+        );
+        categoryFound = 'AWS';
+      }
+      // Azure certifications
+      else if (lowerMessage.match(/\b(azure|microsoft)\b/i)) {
+        filtered = data.filter(c =>
+          c.provider.toLowerCase().includes('azure') ||
+          c.provider.toLowerCase().includes('microsoft') ||
+          c.name.toLowerCase().includes('azure')
+        );
+        categoryFound = 'Azure';
+      }
+      // Google Cloud certifications
+      else if (lowerMessage.match(/\b(gcp|google cloud)\b/i)) {
+        filtered = data.filter(c =>
+          c.provider.toLowerCase().includes('google') ||
+          c.name.toLowerCase().includes('google')
+        );
+        categoryFound = 'Google Cloud';
+      }
+      // Security certifications
+      else if (lowerMessage.match(/\b(security|cissp|cism|ceh)\b/i)) {
+        filtered = data.filter(c =>
+          c.category?.toLowerCase().includes('security') ||
+          c.name.toLowerCase().includes('security')
+        );
+        categoryFound = 'Security';
+      }
+      // TCS certifications
+      else if (lowerMessage.match(/\b(tcs|tata)\b/i)) {
+        filtered = data.filter(c =>
+          c.provider.toLowerCase().includes('tcs')
+        );
+        categoryFound = 'TCS';
+      }
+      // All certifications - only show limited set
+      else if (lowerMessage.match(/\b(all|show all|list)\b/i) || lowerMessage === 'certifications') {
+        filtered = data.slice(0, 6);
+        categoryFound = 'Overview';
+      }
+
+      if (filtered.length > 0) {
         response = {
           intent: 'view_certifications',
           responseType: 'cards',
           data: filtered,
-          text: `I found ${filtered.length} AWS certification(s).`,
-          suggestions: ['View other cloud certs', 'Show all certifications', 'Get training info']
-        };
-      } else if (lowerMessage.includes('azure')) {
-        const filtered = data.filter(c => c.provider.toLowerCase().includes('azure') || c.name.toLowerCase().includes('azure'));
-        response = {
-          intent: 'view_certifications',
-          responseType: 'cards',
-          data: filtered,
-          text: `I found ${filtered.length} Azure certification(s).`,
-          suggestions: ['View cloud certifications', 'Show prerequisites', 'Request training']
+          text: categoryFound === 'Overview'
+            ? `Here are ${filtered.length} featured certifications. Ask about specific providers like AWS, Azure, or Google Cloud for more.`
+            : `I found ${filtered.length} ${categoryFound} certification${filtered.length > 1 ? 's' : ''}.`,
+          suggestions: categoryFound === 'Overview'
+            ? ['Show AWS certifications', 'Show Azure certifications', 'Show TCS certifications']
+            : ['View prerequisites', 'Show related skills', 'Request training']
         };
       } else {
         response = {
           intent: 'view_certifications',
-          responseType: 'cards',
-          data: data.slice(0, 10),
-          text: `Here are our available certifications across various technologies and domains.`,
-          suggestions: ['Filter by category', 'Show TCS certifications', 'View benefits']
+          responseType: 'text',
+          data: null,
+          text: `I couldn't find any certifications matching "${message}". Try asking about: AWS, Azure, Google Cloud, Security, or TCS certifications.`,
+          suggestions: ['Show AWS certifications', 'Show Azure certifications', 'Show all certifications']
         };
       }
     }
@@ -422,14 +565,14 @@ app.post('/api/chat', async (req, res) => {
         suggestions: ['View existing requests', 'Check availability', 'Show skills']
       };
     }
-    // Incubation related
+    // Incubation related - with intelligent filtering
     else if (lowerMessage.includes('incubat') || lowerMessage.includes('innovation') || lowerMessage.includes('new project')) {
       const data = await readJSON('incubation.json');
       response = {
         intent: 'view_incubation',
         responseType: 'cards',
-        data: data.slice(0, 10),
-        text: `We have ${data.length} active incubation projects across various innovation areas. Here are some highlights:`,
+        data: data.slice(0, 6), // Show only first 6
+        text: `We have ${data.length} incubation projects across various innovation areas. Here are ${Math.min(6, data.length)} featured projects:`,
         suggestions: ['Filter by stage', 'Show CMI projects', 'Submit new idea']
       };
     }
@@ -459,8 +602,8 @@ app.post('/api/chat', async (req, res) => {
         response = {
           intent: 'view_projects',
           responseType: 'cards',
-          data: data.slice(0, 10),
-          text: `Here's an overview of our projects. We have ${data.length} projects across various industries.`,
+          data: data.slice(0, 6), // Show only first 6
+          text: `Here's an overview of our projects. We have ${data.length} projects across various industries. Showing ${Math.min(6, data.length)} featured projects:`,
           suggestions: ['Filter by status', 'Show reports', 'View by industry']
         };
       }
