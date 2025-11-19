@@ -3,10 +3,10 @@
 ## 🌐 Access URLs
 
 ### Local Access (Same Machine)
-**Primary URL**: http://localhost:3000/
+**Primary URL**: http://localhost:3008/
 
 ### Network Access (Any Device on Same Network)
-**Network URL**: http://21.0.0.96:3000/
+**Network URL**: http://21.0.0.82:3008/
 
 Use this URL to access from:
 - Other computers on your network
@@ -22,7 +22,7 @@ Use this URL to access from:
 ## 🎯 Quick Demo Script
 
 ### Opening the Demo
-1. Open your browser and navigate to: **http://localhost:3000/** or **http://21.0.0.96:3000/**
+1. Open your browser and navigate to: **http://localhost:3008/** or **http://21.0.0.82:3008/**
 2. You'll see the TCS Digital Portal with a chat interface
 
 ### Demo Flow
@@ -156,10 +156,10 @@ Multiple case studies featuring TCS Cognitive Market Insights:
 ## 📱 Multi-Device Access
 
 ### Desktop/Laptop
-Open in browser: http://localhost:3000/
+Open in browser: http://localhost:3008/
 
 ### Mobile/Tablet (Same Network)
-Open in browser: http://21.0.0.96:3000/
+Open in browser: http://21.0.0.82:3008/
 
 ### Features Work on All Devices
 - Fully responsive design
@@ -174,7 +174,7 @@ Open in browser: http://21.0.0.96:3000/
 ### Can't Access from Another Device?
 1. Ensure both devices are on the same WiFi network
 2. Check firewall settings (ports 3000 and 5000 should be open)
-3. Try: http://21.0.0.96:3000/
+3. Try: http://21.0.0.82:3008/
 
 ### Servers Not Running?
 Run in terminal:
@@ -224,7 +224,7 @@ This starts both frontend and backend automatically.
 
 For any issues during the demo, check:
 - Backend Status: http://localhost:5000/api/health
-- Frontend Status: http://localhost:3000/
+- Frontend Status: http://localhost:3008/
 - Console logs in browser Developer Tools (F12)
 
 ---
