@@ -1,5 +1,259 @@
 [
   {
+    "id": "PORT-CMI-001",
+    "title": "TCS CMI Cognitive Intelligence Platform",
+    "category": "AI/ML",
+    "description": "TCS Cognitive Market Insights (CMI) powered platform that combines AI, ML, and advanced analytics to deliver actionable business intelligence and predictive insights across industries",
+    "useCases": [
+      "Real-time market trend analysis using TCS CMI algorithms",
+      "Predictive customer behavior modeling with 95% accuracy",
+      "Automated competitor intelligence gathering and analysis",
+      "Dynamic pricing optimization based on market sentiment",
+      "Risk assessment and mitigation using cognitive insights"
+    ],
+    "caseStudies": [
+      {
+        "client": "Fortune 500 Financial Institution",
+        "industry": "Banking & Finance",
+        "challenge": "Needed real-time market insights to stay competitive in volatile markets while reducing analyst workload",
+        "solution": "Deployed TCS CMI platform with cognitive analytics, NLP-based news sentiment analysis, and ML-driven predictive models integrated with existing trading systems",
+        "results": "78% reduction in manual analysis time, 45% improvement in trading decisions, $12M additional revenue in Q1, 99.7% prediction accuracy for market movements"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "Python",
+      "TensorFlow",
+      "Apache Spark",
+      "Azure Cognitive Services",
+      "Power BI",
+      "NLP"
+    ],
+    "createdDate": "2024-03-20"
+  },
+  {
+    "id": "PORT-CMI-002",
+    "title": "TCS CMI Healthcare Diagnostics Assistant",
+    "category": "AI/ML",
+    "description": "AI-powered medical diagnostics platform leveraging TCS Cognitive Market Insights to assist healthcare professionals in accurate disease detection and treatment recommendations",
+    "useCases": [
+      "Medical image analysis for radiology using TCS CMI vision AI",
+      "Patient risk stratification and early warning systems",
+      "Drug interaction prediction and personalized medicine",
+      "Clinical decision support with evidence-based recommendations",
+      "Population health management and epidemiology forecasting"
+    ],
+    "caseStudies": [
+      {
+        "client": "National Healthcare Network",
+        "industry": "Healthcare",
+        "challenge": "Radiologists overwhelmed with increasing scan volumes, leading to diagnostic delays and potential errors",
+        "solution": "Implemented TCS CMI medical imaging AI with deep learning models trained on 5M+ annotated scans, integrated seamlessly with PACS systems",
+        "results": "94% diagnostic accuracy matching expert radiologists, 70% reduction in diagnosis time, detected 23% more early-stage cancers, improved patient outcomes by 40%"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "Deep Learning",
+      "PyTorch",
+      "Computer Vision",
+      "DICOM",
+      "HL7 FHIR",
+      "Azure Health"
+    ],
+    "createdDate": "2024-03-18"
+  },
+  {
+    "id": "PORT-CMI-003",
+    "title": "TCS CMI Supply Chain Intelligence",
+    "category": "Supply Chain",
+    "description": "Cognitive supply chain optimization platform powered by TCS CMI that provides end-to-end visibility, predictive analytics, and autonomous decision-making capabilities",
+    "useCases": [
+      "Demand forecasting with TCS CMI predictive models",
+      "Intelligent inventory optimization across multi-tier networks",
+      "Supplier risk assessment and alternative sourcing recommendations",
+      "Route optimization and logistics planning using AI",
+      "Real-time supply chain disruption prediction and mitigation"
+    ],
+    "caseStudies": [
+      {
+        "client": "Global Manufacturing Corporation",
+        "industry": "Manufacturing",
+        "challenge": "Supply chain disruptions costing $50M annually, poor demand visibility causing excess inventory and stockouts",
+        "solution": "Deployed TCS CMI Supply Chain Intelligence with IoT integration, ML forecasting, and cognitive automation for 300+ suppliers across 50 countries",
+        "results": "87% forecast accuracy, $35M cost savings annually, 60% reduction in stockouts, 45% lower inventory carrying costs, predicted and prevented 12 major disruptions"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "IoT",
+      "Machine Learning",
+      "SAP Integration",
+      "Blockchain",
+      "Apache Kafka",
+      "Real-time Analytics"
+    ],
+    "createdDate": "2024-03-15"
+  },
+  {
+    "id": "PORT-CMI-004",
+    "title": "TCS CMI Fraud Detection & Prevention",
+    "category": "Security",
+    "description": "Advanced fraud detection system powered by TCS Cognitive Market Insights using behavioral analytics, anomaly detection, and real-time threat intelligence",
+    "useCases": [
+      "Real-time transaction monitoring with TCS CMI behavioral analytics",
+      "Identity theft and account takeover prevention",
+      "Payment fraud detection across multiple channels",
+      "Anti-money laundering (AML) compliance automation",
+      "Cyber threat intelligence and proactive defense"
+    ],
+    "caseStudies": [
+      {
+        "client": "International Payment Processor",
+        "industry": "FinTech",
+        "challenge": "Losing $200M annually to fraud while false positives frustrated legitimate customers with transaction blocks",
+        "solution": "Implemented TCS CMI Fraud Detection platform analyzing 100M+ transactions daily with behavioral biometrics, network analysis, and adaptive ML models",
+        "results": "99.4% fraud detection rate, 85% reduction in false positives, blocked $180M in fraudulent transactions in first year, improved customer satisfaction by 65%"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "Real-time Analytics",
+      "Graph Database",
+      "Behavioral Analytics",
+      "Azure Sentinel",
+      "ML Ops"
+    ],
+    "createdDate": "2024-03-12"
+  },
+  {
+    "id": "PORT-CMI-005",
+    "title": "TCS CMI Intelligent Document Processing",
+    "category": "Automation",
+    "description": "Enterprise-scale intelligent document processing solution leveraging TCS CMI for automated extraction, classification, and processing of structured and unstructured documents",
+    "useCases": [
+      "Automated invoice and PO processing with TCS CMI OCR",
+      "Contract analysis and clause extraction using NLP",
+      "Claims processing automation for insurance",
+      "Regulatory document compliance checking",
+      "Multi-language document translation and summarization"
+    ],
+    "caseStudies": [
+      {
+        "client": "Global Insurance Conglomerate",
+        "industry": "Insurance",
+        "challenge": "Processing 500K+ claims documents monthly with 15-day average turnaround, high operational costs, and compliance risks",
+        "solution": "Deployed TCS CMI Intelligent Document Processing with computer vision, NLP, and RPA integration handling 50+ document types in 12 languages",
+        "results": "92% straight-through processing, claims processed in 2 hours vs 15 days, $25M annual cost savings, 99.8% accuracy, zero compliance violations"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "OCR",
+      "NLP",
+      "RPA",
+      "Azure Form Recognizer",
+      "Python",
+      "Workflow Automation"
+    ],
+    "createdDate": "2024-03-10"
+  },
+  {
+    "id": "PORT-CMI-006",
+    "title": "TCS CMI Conversational AI Platform",
+    "category": "AI/ML",
+    "description": "Advanced conversational AI solution powered by TCS CMI enabling natural human-machine interactions across voice and text channels with contextual understanding",
+    "useCases": [
+      "Multi-channel virtual assistants with TCS CMI NLU engine",
+      "Voice-enabled customer service automation",
+      "Contextual chatbots for complex business processes",
+      "Employee self-service HR and IT support bots",
+      "Multilingual customer engagement with sentiment analysis"
+    ],
+    "caseStudies": [
+      {
+        "client": "Telecom Service Provider",
+        "industry": "Telecommunications",
+        "challenge": "Call centers overwhelmed with 2M+ monthly queries, customer satisfaction dropping, agent attrition at 45%",
+        "solution": "Implemented TCS CMI Conversational AI across web, mobile, and voice channels with 15 languages, integrated with CRM and billing systems",
+        "results": "Handles 75% of queries autonomously, CSAT improved from 62% to 91%, reduced call center costs by $40M annually, agent attrition reduced to 18%"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "NLP",
+      "Speech Recognition",
+      "Dialog Management",
+      "Azure Bot Service",
+      "Multi-channel Integration"
+    ],
+    "createdDate": "2024-03-08"
+  },
+  {
+    "id": "PORT-CMI-007",
+    "title": "TCS CMI Predictive Maintenance Solution",
+    "category": "IoT",
+    "description": "Industrial IoT platform powered by TCS Cognitive Market Insights providing predictive maintenance, asset health monitoring, and optimization for manufacturing operations",
+    "useCases": [
+      "Equipment failure prediction using TCS CMI predictive models",
+      "Real-time asset health monitoring and diagnostics",
+      "Maintenance schedule optimization and spare parts planning",
+      "Energy consumption optimization using AI",
+      "Overall Equipment Effectiveness (OEE) improvement"
+    ],
+    "caseStudies": [
+      {
+        "client": "Automotive Manufacturing Giant",
+        "industry": "Automotive",
+        "challenge": "Unplanned downtime costing $5M per day, reactive maintenance inefficient, unable to predict equipment failures",
+        "solution": "Deployed TCS CMI Predictive Maintenance across 200+ production lines with 50K+ IoT sensors, edge analytics, and digital twin technology",
+        "results": "82% reduction in unplanned downtime, prevented 47 critical failures, $180M annual savings, improved OEE from 65% to 87%, extended equipment life by 35%"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "IoT",
+      "Edge Computing",
+      "Digital Twin",
+      "Time-series Analytics",
+      "Azure IoT Hub",
+      "Machine Learning"
+    ],
+    "createdDate": "2024-03-05"
+  },
+  {
+    "id": "PORT-CMI-008",
+    "title": "TCS CMI Customer 360 Platform",
+    "category": "Data Analytics",
+    "description": "Unified customer data platform leveraging TCS CMI to provide 360-degree customer view with AI-driven insights, segmentation, and personalization at scale",
+    "useCases": [
+      "Real-time customer data unification from 100+ sources",
+      "AI-powered customer segmentation using TCS CMI",
+      "Next-best-action recommendations and propensity modeling",
+      "Customer lifetime value prediction and optimization",
+      "Personalized omnichannel engagement orchestration"
+    ],
+    "caseStudies": [
+      {
+        "client": "Leading Retail Bank",
+        "industry": "Banking",
+        "challenge": "Customer data siloed across 50+ systems, unable to provide personalized experiences, cross-sell success rate under 5%",
+        "solution": "Implemented TCS CMI Customer 360 platform unifying data from core banking, CRM, digital channels, and external sources with real-time CDP",
+        "results": "Single customer view across all touchpoints, cross-sell rate increased to 32%, $200M incremental revenue, customer retention improved by 28%, NPS increased from 42 to 78"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "CDP",
+      "Real-time Data Integration",
+      "ML Personalization",
+      "Graph Analytics",
+      "Azure Synapse",
+      "Power BI"
+    ],
+    "createdDate": "2024-03-02"
+  },
+  {
     "id": "PORT-001",
     "title": "AI-Powered Customer Experience Platform",
     "category": "AI/ML",
@@ -19,7 +273,13 @@
         "results": "40% reduction in support costs, 85% customer satisfaction, 60% faster resolution time"
       }
     ],
-    "technologies": ["Python", "TensorFlow", "NLP", "Azure Cognitive Services", "React"],
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "NLP",
+      "Azure Cognitive Services",
+      "React"
+    ],
     "createdDate": "2024-01-15"
   },
   {
@@ -42,7 +302,14 @@
         "results": "65% cost savings, 99.99% uptime, 10x faster deployment cycles"
       }
     ],
-    "technologies": ["AWS", "Azure", "GCP", "Kubernetes", "Docker", "Terraform"],
+    "technologies": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "Terraform"
+    ],
     "createdDate": "2024-02-10"
   },
   {
@@ -65,7 +332,13 @@
         "results": "100% product traceability, 95% reduction in counterfeit incidents, regulatory compliance achieved"
       }
     ],
-    "technologies": ["Hyperledger Fabric", "Ethereum", "Solidity", "Node.js", "IoT"],
+    "technologies": [
+      "Hyperledger Fabric",
+      "Ethereum",
+      "Solidity",
+      "Node.js",
+      "IoT"
+    ],
     "createdDate": "2024-03-05"
   },
   {
@@ -88,7 +361,13 @@
         "results": "45% reduction in downtime, $2M annual savings, 30% improved OEE"
       }
     ],
-    "technologies": ["Azure IoT Hub", "Python", "Edge Computing", "Power BI", "MQTT"],
+    "technologies": [
+      "Azure IoT Hub",
+      "Python",
+      "Edge Computing",
+      "Power BI",
+      "MQTT"
+    ],
     "createdDate": "2024-01-20"
   },
   {
@@ -111,7 +390,13 @@
         "results": "99.9% threat detection rate, 80% faster incident response, full HIPAA compliance"
       }
     ],
-    "technologies": ["Splunk", "QRadar", "CrowdStrike", "Firewall", "SIEM"],
+    "technologies": [
+      "Splunk",
+      "QRadar",
+      "CrowdStrike",
+      "Firewall",
+      "SIEM"
+    ],
     "createdDate": "2024-02-28"
   },
   {
@@ -134,7 +419,13 @@
         "results": "Single source of truth, 50% faster reporting, $5M revenue optimization"
       }
     ],
-    "technologies": ["Power BI", "Tableau", "Azure Synapse", "Snowflake", "Python"],
+    "technologies": [
+      "Power BI",
+      "Tableau",
+      "Azure Synapse",
+      "Snowflake",
+      "Python"
+    ],
     "createdDate": "2024-03-12"
   },
   {
@@ -157,7 +448,13 @@
         "results": "Daily deployments enabled, 90% reduction in deployment errors, 5x faster time-to-market"
       }
     ],
-    "technologies": ["Jenkins", "GitLab", "Ansible", "Kubernetes", "Prometheus"],
+    "technologies": [
+      "Jenkins",
+      "GitLab",
+      "Ansible",
+      "Kubernetes",
+      "Prometheus"
+    ],
     "createdDate": "2024-01-08"
   },
   {
@@ -180,7 +477,13 @@
         "results": "2M+ downloads, 75% digital adoption, 4.8 App Store rating"
       }
     ],
-    "technologies": ["React Native", "Node.js", "MongoDB", "OAuth 2.0", "AWS"],
+    "technologies": [
+      "React Native",
+      "Node.js",
+      "MongoDB",
+      "OAuth 2.0",
+      "AWS"
+    ],
     "createdDate": "2024-02-14"
   },
   {
@@ -203,7 +506,13 @@
         "results": "Claims processed in 2 hours, 70% cost reduction, 99% accuracy"
       }
     ],
-    "technologies": ["UiPath", "Automation Anywhere", "Blue Prism", "Python", "OCR"],
+    "technologies": [
+      "UiPath",
+      "Automation Anywhere",
+      "Blue Prism",
+      "Python",
+      "OCR"
+    ],
     "createdDate": "2024-03-01"
   },
   {
@@ -226,7 +535,13 @@
         "results": "Real-time analytics enabled, 40% faster processes, $3M annual savings"
       }
     ],
-    "technologies": ["SAP S/4HANA", "Fiori", "ABAP", "SAP Cloud Platform", "APIs"],
+    "technologies": [
+      "SAP S/4HANA",
+      "Fiori",
+      "ABAP",
+      "SAP Cloud Platform",
+      "APIs"
+    ],
     "createdDate": "2024-01-25"
   },
   {
@@ -249,7 +564,13 @@
         "results": "90% time savings, 95% accuracy, $500K annual cost reduction"
       }
     ],
-    "technologies": ["Azure Cognitive Services", "Python", "OCR", "NLP", "TensorFlow"],
+    "technologies": [
+      "Azure Cognitive Services",
+      "Python",
+      "OCR",
+      "NLP",
+      "TensorFlow"
+    ],
     "createdDate": "2024-02-18"
   },
   {
@@ -272,7 +593,13 @@
         "results": "Sub-100ms latency, 35% sales increase, better customer experience"
       }
     ],
-    "technologies": ["Azure IoT Edge", "TensorFlow Lite", "MQTT", "Python", "Redis"],
+    "technologies": [
+      "Azure IoT Edge",
+      "TensorFlow Lite",
+      "MQTT",
+      "Python",
+      "Redis"
+    ],
     "createdDate": "2024-03-08"
   },
   {
@@ -295,7 +622,13 @@
         "results": "10x faster optimization, better risk-adjusted returns, competitive advantage"
       }
     ],
-    "technologies": ["IBM Qiskit", "Azure Quantum", "Python", "Q#", "Quantum Algorithms"],
+    "technologies": [
+      "IBM Qiskit",
+      "Azure Quantum",
+      "Python",
+      "Q#",
+      "Quantum Algorithms"
+    ],
     "createdDate": "2024-01-30"
   },
   {
@@ -318,7 +651,13 @@
         "results": "60% training cost reduction, zero training accidents, 85% knowledge retention"
       }
     ],
-    "technologies": ["Unity", "Unreal Engine", "Oculus SDK", "HoloLens", "C#"],
+    "technologies": [
+      "Unity",
+      "Unreal Engine",
+      "Oculus SDK",
+      "HoloLens",
+      "C#"
+    ],
     "createdDate": "2024-02-22"
   },
   {
@@ -341,7 +680,13 @@
         "results": "40% coverage improvement, 50% congestion reduction, enhanced QoS"
       }
     ],
-    "technologies": ["Python", "Machine Learning", "RF Planning Tools", "Big Data", "APIs"],
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "RF Planning Tools",
+      "Big Data",
+      "APIs"
+    ],
     "createdDate": "2024-03-15"
   },
   {
@@ -361,10 +706,16 @@
         "industry": "Technology",
         "challenge": "Fragmented customer data across multiple systems",
         "solution": "Implemented Salesforce with custom integrations and Einstein AI",
-        "results": "30% sales productivity increase, 360° customer view, 25% revenue growth"
+        "results": "30% sales productivity increase, 360\u00b0 customer view, 25% revenue growth"
       }
     ],
-    "technologies": ["Salesforce", "Apex", "Lightning", "Einstein AI", "REST APIs"],
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "Einstein AI",
+      "REST APIs"
+    ],
     "createdDate": "2024-01-12"
   },
   {
@@ -387,7 +738,13 @@
         "results": "Automated reporting, 30% carbon reduction achieved, investor confidence improved"
       }
     ],
-    "technologies": ["Power BI", "Azure", "Python", "APIs", "Data Integration"],
+    "technologies": [
+      "Power BI",
+      "Azure",
+      "Python",
+      "APIs",
+      "Data Integration"
+    ],
     "createdDate": "2024-02-25"
   },
   {
@@ -410,7 +767,13 @@
         "results": "25% traffic reduction, optimized emergency response, better urban planning"
       }
     ],
-    "technologies": ["Azure Digital Twins", "IoT", "3D Modeling", "AI/ML", "GIS"],
+    "technologies": [
+      "Azure Digital Twins",
+      "IoT",
+      "3D Modeling",
+      "AI/ML",
+      "GIS"
+    ],
     "createdDate": "2024-03-10"
   },
   {
@@ -433,7 +796,13 @@
         "results": "$2M new revenue stream, 1000+ external developers onboarded, 99.99% uptime"
       }
     ],
-    "technologies": ["Azure API Management", "Kong", "OAuth 2.0", "Swagger", "Node.js"],
+    "technologies": [
+      "Azure API Management",
+      "Kong",
+      "OAuth 2.0",
+      "Swagger",
+      "Node.js"
+    ],
     "createdDate": "2024-01-18"
   },
   {
@@ -456,7 +825,13 @@
         "results": "10x faster development, 200+ apps created, $1M cost savings"
       }
     ],
-    "technologies": ["Microsoft Power Platform", "OutSystems", "Mendix", "Azure", "APIs"],
+    "technologies": [
+      "Microsoft Power Platform",
+      "OutSystems",
+      "Mendix",
+      "Azure",
+      "APIs"
+    ],
     "createdDate": "2024-02-05"
   }
 ]

@@ -4,6 +4,13 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import ChatInterface from './components/ChatInterface';
 import Dashboard from './components/Dashboard';
+import PortfolioPage from './components/PortfolioPage';
+import SkillsPage from './components/SkillsPage';
+import CertificationsPage from './components/CertificationsPage';
+import EngagementsPage from './components/EngagementsPage';
+import IncubationPage from './components/IncubationPage';
+import ProjectsPage from './components/ProjectsPage';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -37,11 +44,15 @@ function App() {
           stats={stats}
         />
         <main className={`main-content ${!sidebarOpen ? 'sidebar-closed' : ''}`}>
-          {activeView === 'chat' ? (
-            <ChatInterface />
-          ) : (
-            <Dashboard stats={stats} />
-          )}
+          {activeView === 'chat' && <ChatInterface />}
+          {activeView === 'dashboard' && <Dashboard stats={stats} />}
+          {activeView === 'portfolio' && <PortfolioPage />}
+          {activeView === 'skills' && <SkillsPage />}
+          {activeView === 'certifications' && <CertificationsPage />}
+          {activeView === 'engagements' && <EngagementsPage />}
+          {activeView === 'incubation' && <IncubationPage />}
+          {activeView === 'projects' && <ProjectsPage />}
+          <Footer />
         </main>
       </div>
     </div>
