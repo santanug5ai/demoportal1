@@ -1,0 +1,202 @@
+[
+  {
+    "id": "CERT-001",
+    "name": "AWS Certified Solutions Architect - Professional",
+    "provider": "Amazon Web Services",
+    "category": "Cloud",
+    "validityPeriod": "3 years",
+    "description": "Advanced AWS architecture design and implementation certification",
+    "prerequisites": ["AWS Solutions Architect Associate", "1+ years AWS experience"],
+    "benefits": ["Industry recognition", "Advanced cloud skills", "Higher salary potential"]
+  },
+  {
+    "id": "CERT-002",
+    "name": "Microsoft Azure Solutions Architect Expert",
+    "provider": "Microsoft",
+    "category": "Cloud",
+    "validityPeriod": "2 years",
+    "description": "Expert-level Azure solution design and implementation",
+    "prerequisites": ["Azure Fundamentals", "Azure Administrator Associate"],
+    "benefits": ["Microsoft recognition", "Enterprise cloud expertise", "Career advancement"]
+  },
+  {
+    "id": "CERT-003",
+    "name": "Certified Kubernetes Administrator (CKA)",
+    "provider": "Cloud Native Computing Foundation",
+    "category": "DevOps",
+    "validityPeriod": "3 years",
+    "description": "Kubernetes cluster administration and management certification",
+    "prerequisites": ["Basic Linux skills", "Container knowledge"],
+    "benefits": ["Industry-standard certification", "High demand skill", "DevOps expertise"]
+  },
+  {
+    "id": "CERT-004",
+    "name": "TCS Cognitive Services Specialist",
+    "provider": "TCS",
+    "category": "AI/ML",
+    "validityPeriod": "2 years",
+    "description": "TCS internal certification for AI and cognitive solutions expertise",
+    "prerequisites": ["Python programming", "ML fundamentals"],
+    "benefits": ["TCS internal recognition", "CMI project opportunities", "AI specialization"]
+  },
+  {
+    "id": "CERT-005",
+    "name": "PMP - Project Management Professional",
+    "provider": "PMI",
+    "category": "Management",
+    "validityPeriod": "3 years",
+    "description": "Global standard for project management excellence",
+    "prerequisites": ["4500 hours project management", "35 PDU education"],
+    "benefits": ["Global recognition", "Leadership advancement", "Higher compensation"]
+  },
+  {
+    "id": "CERT-006",
+    "name": "SAP Certified Application Associate - S/4HANA",
+    "provider": "SAP",
+    "category": "ERP",
+    "validityPeriod": "Lifetime",
+    "description": "SAP S/4HANA implementation and configuration expertise",
+    "prerequisites": ["SAP training course", "Hands-on experience"],
+    "benefits": ["SAP partner recognition", "ERP consulting opportunities", "High demand"]
+  },
+  {
+    "id": "CERT-007",
+    "name": "Certified Information Systems Security Professional (CISSP)",
+    "provider": "ISC2",
+    "category": "Security",
+    "validityPeriod": "3 years",
+    "description": "Advanced cybersecurity certification covering 8 security domains",
+    "prerequisites": ["5 years security experience", "Background check"],
+    "benefits": ["Security leadership role eligibility", "High salary", "Industry respect"]
+  },
+  {
+    "id": "CERT-008",
+    "name": "Google Professional Cloud Architect",
+    "provider": "Google Cloud",
+    "category": "Cloud",
+    "validityPeriod": "2 years",
+    "description": "GCP architecture design and implementation certification",
+    "prerequisites": ["GCP experience", "Architecture knowledge"],
+    "benefits": ["Google Cloud expertise", "Multi-cloud skills", "Market differentiation"]
+  },
+  {
+    "id": "CERT-009",
+    "name": "Salesforce Certified Technical Architect",
+    "provider": "Salesforce",
+    "category": "CRM",
+    "validityPeriod": "2 years",
+    "description": "Highest Salesforce certification for solution architecture",
+    "prerequisites": ["Multiple Salesforce certifications", "Review board approval"],
+    "benefits": ["Elite Salesforce status", "Premium consulting rates", "Exclusive opportunities"]
+  },
+  {
+    "id": "CERT-010",
+    "name": "UiPath Certified Advanced RPA Developer",
+    "provider": "UiPath",
+    "category": "Automation",
+    "validityPeriod": "2 years",
+    "description": "Advanced RPA development and best practices certification",
+    "prerequisites": ["UiPath Associate certification", "Development experience"],
+    "benefits": ["Automation expertise", "RPA project leadership", "High demand skill"]
+  },
+  {
+    "id": "CERT-011",
+    "name": "Certified Scrum Master (CSM)",
+    "provider": "Scrum Alliance",
+    "category": "Agile",
+    "validityPeriod": "2 years",
+    "description": "Scrum framework mastery and team facilitation",
+    "prerequisites": ["2-day CSM course", "Exam passage"],
+    "benefits": ["Agile leadership", "Team productivity improvement", "Career growth"]
+  },
+  {
+    "id": "CERT-012",
+    "name": "TensorFlow Developer Certificate",
+    "provider": "Google",
+    "category": "AI/ML",
+    "validityPeriod": "3 years",
+    "description": "TensorFlow framework expertise for ML model development",
+    "prerequisites": ["Python programming", "ML basics"],
+    "benefits": ["Google recognition", "AI/ML credibility", "Model development skills"]
+  },
+  {
+    "id": "CERT-013",
+    "name": "Certified Blockchain Solution Architect",
+    "provider": "Blockchain Council",
+    "category": "Blockchain",
+    "validityPeriod": "Lifetime",
+    "description": "Blockchain architecture and solution design certification",
+    "prerequisites": ["Blockchain fundamentals", "Distributed systems knowledge"],
+    "benefits": ["Emerging technology expertise", "High-value projects", "Innovation leadership"]
+  },
+  {
+    "id": "CERT-014",
+    "name": "TOGAF 9 Certified",
+    "provider": "The Open Group",
+    "category": "Enterprise Architecture",
+    "validityPeriod": "Lifetime",
+    "description": "Enterprise architecture framework certification",
+    "prerequisites": ["TOGAF training", "Architecture experience"],
+    "benefits": ["EA methodology expertise", "Strategic planning skills", "Enterprise transformation"]
+  },
+  {
+    "id": "CERT-015",
+    "name": "Tableau Desktop Specialist",
+    "provider": "Tableau",
+    "category": "Data Analytics",
+    "validityPeriod": "2 years",
+    "description": "Data visualization and analytics using Tableau",
+    "prerequisites": ["Tableau fundamentals", "3 months experience"],
+    "benefits": ["Data storytelling", "Business intelligence skills", "Analytics career path"]
+  },
+  {
+    "id": "CERT-016",
+    "name": "DevOps Institute Certified DevOps Engineer",
+    "provider": "DevOps Institute",
+    "category": "DevOps",
+    "validityPeriod": "3 years",
+    "description": "Comprehensive DevOps practices and toolchain certification",
+    "prerequisites": ["DevOps fundamentals", "CI/CD experience"],
+    "benefits": ["DevOps transformation leadership", "Tool expertise", "Process optimization"]
+  },
+  {
+    "id": "CERT-017",
+    "name": "ITIL 4 Foundation",
+    "provider": "Axelos",
+    "category": "IT Service Management",
+    "validityPeriod": "Lifetime",
+    "description": "IT service management best practices framework",
+    "prerequisites": ["None"],
+    "benefits": ["ITSM standardization", "Process improvement", "Service excellence"]
+  },
+  {
+    "id": "CERT-018",
+    "name": "Certified Data Professional",
+    "provider": "DAMA",
+    "category": "Data Management",
+    "validityPeriod": "3 years",
+    "description": "Data governance, quality, and management certification",
+    "prerequisites": ["Data management experience", "DMBOK knowledge"],
+    "benefits": ["Data governance expertise", "Quality assurance", "Strategic data management"]
+  },
+  {
+    "id": "CERT-019",
+    "name": "Oracle Cloud Infrastructure Architect Associate",
+    "provider": "Oracle",
+    "category": "Cloud",
+    "validityPeriod": "18 months",
+    "description": "OCI architecture and service implementation",
+    "prerequisites": ["OCI fundamentals", "Cloud experience"],
+    "benefits": ["Multi-cloud expertise", "Oracle ecosystem access", "Enterprise opportunities"]
+  },
+  {
+    "id": "CERT-020",
+    "name": "Certified Ethical Hacker (CEH)",
+    "provider": "EC-Council",
+    "category": "Security",
+    "validityPeriod": "3 years",
+    "description": "Ethical hacking techniques and penetration testing",
+    "prerequisites": ["Network security knowledge", "2 years experience"],
+    "benefits": ["Security assessment skills", "Threat detection", "Defensive security"]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "PROJ-001",
+    "projectName": "Digital Banking Transformation",
+    "client": "Metropolitan Bank",
+    "status": "In Progress",
+    "progress": 65,
+    "startDate": "2023-09-01",
+    "endDate": "2024-06-30",
+    "team": ["Rajesh Kumar", "Priya Sharma", "Amit Patel", "Kavita Reddy"],
+    "budget": 5000000,
+    "risks": ["Integration complexity with legacy systems", "Regulatory compliance delays"],
+    "reports": [
+      {"date": "2024-03-15", "type": "Monthly", "summary": "Successfully migrated 60% of services to cloud. Customer portal UAT in progress.", "url": "/reports/proj001-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Monthly", "summary": "Completed mobile app development. Starting security penetration testing.", "url": "/reports/proj001-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-002",
+    "projectName": "AI-Powered Supply Chain Optimization",
+    "client": "Global Retail Corp",
+    "status": "In Progress",
+    "progress": 80,
+    "startDate": "2023-11-15",
+    "endDate": "2024-04-30",
+    "team": ["Suresh Menon", "Deepak Singh", "Venkat Rao", "Anjali Mehta"],
+    "budget": 3500000,
+    "risks": ["Data quality issues in historical data", "Stakeholder change management"],
+    "reports": [
+      {"date": "2024-03-10", "type": "Milestone", "summary": "ML models deployed to production. Achieved 35% improvement in demand forecasting accuracy.", "url": "/reports/proj002-milestone-mar2024.pdf"},
+      {"date": "2024-02-15", "type": "Monthly", "summary": "Predictive models under validation. Early results showing 30% reduction in stockouts.", "url": "/reports/proj002-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-003",
+    "projectName": "Cloud Migration - SAP Landscape",
+    "client": "Manufacturing Conglomerate",
+    "status": "In Progress",
+    "progress": 45,
+    "startDate": "2024-01-10",
+    "endDate": "2024-12-31",
+    "team": ["Lakshmi Narayan", "Ramesh Iyer", "Sanjay Gupta"],
+    "budget": 8000000,
+    "risks": ["Downtime during cutover", "Performance tuning challenges", "Cost overruns"],
+    "reports": [
+      {"date": "2024-03-18", "type": "Monthly", "summary": "Development system migrated successfully. Quality system migration scheduled for April.", "url": "/reports/proj003-mar2024.pdf"},
+      {"date": "2024-02-20", "type": "Monthly", "summary": "Infrastructure setup completed. Sandbox migration and testing in progress.", "url": "/reports/proj003-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-004",
+    "projectName": "Cybersecurity Operations Center (SOC)",
+    "client": "Healthcare Network",
+    "status": "In Progress",
+    "progress": 90,
+    "startDate": "2023-08-01",
+    "endDate": "2024-03-31",
+    "team": ["Deepak Singh", "Harish Babu", "Ramya Subramanian"],
+    "budget": 2500000,
+    "risks": ["Staff training completion", "Integration with existing security tools"],
+    "reports": [
+      {"date": "2024-03-12", "type": "Weekly", "summary": "SOC operational with 24/7 monitoring. Detected and mitigated 15 security incidents this week.", "url": "/reports/proj004-week11-2024.pdf"},
+      {"date": "2024-03-05", "type": "Milestone", "summary": "SIEM fully operational. Threat intelligence feeds integrated. Runbook documentation complete.", "url": "/reports/proj004-milestone-mar2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-005",
+    "projectName": "IoT-Enabled Smart Factory",
+    "client": "Automotive Manufacturer",
+    "status": "In Progress",
+    "progress": 55,
+    "startDate": "2023-10-01",
+    "endDate": "2024-07-31",
+    "team": ["Sunil Kumar", "Manoj Tiwari", "Priyanka Bhat", "Aditya Narayan"],
+    "budget": 4500000,
+    "risks": ["Sensor integration with old machinery", "Network connectivity in factory floor"],
+    "reports": [
+      {"date": "2024-03-14", "type": "Monthly", "summary": "1500 sensors deployed across 3 production lines. Real-time dashboard operational.", "url": "/reports/proj005-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Milestone", "summary": "Predictive maintenance module completed. Detected anomalies preventing 2 equipment failures.", "url": "/reports/proj005-milestone-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-006",
+    "projectName": "Customer 360 Platform",
+    "client": "Telecom Giant",
+    "status": "In Progress",
+    "progress": 70,
+    "startDate": "2023-07-15",
+    "endDate": "2024-05-31",
+    "team": ["Priya Sharma", "Vivek Pandey", "Riya Desai", "Karthik Venkat"],
+    "budget": 6000000,
+    "risks": ["Data migration complexity", "Performance at scale"],
+    "reports": [
+      {"date": "2024-03-16", "type": "Monthly", "summary": "Customer data platform integrated with 12 source systems. 85% data quality achieved.", "url": "/reports/proj006-mar2024.pdf"},
+      {"date": "2024-02-25", "type": "Monthly", "summary": "Master data management rules defined. Real-time sync operational for billing data.", "url": "/reports/proj006-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-007",
+    "projectName": "RPA for Claims Processing",
+    "client": "Insurance Corp Ltd",
+    "status": "Completed",
+    "progress": 100,
+    "startDate": "2023-06-01",
+    "endDate": "2024-01-31",
+    "team": ["Mohan Das", "Prakash Yadav", "Neelam Singh"],
+    "budget": 1800000,
+    "risks": [],
+    "reports": [
+      {"date": "2024-01-31", "type": "Milestone", "summary": "Project successfully completed. 25 bots deployed processing 5000+ claims daily with 99.2% accuracy.", "url": "/reports/proj007-completion-jan2024.pdf"},
+      {"date": "2024-01-15", "type": "Monthly", "summary": "Hypercare support ongoing. Average claims processing time reduced from 5 days to 4 hours.", "url": "/reports/proj007-jan2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-008",
+    "projectName": "Blockchain Supply Chain Platform",
+    "client": "Pharma Global",
+    "status": "In Progress",
+    "progress": 85,
+    "startDate": "2023-09-20",
+    "endDate": "2024-04-15",
+    "team": ["Varun Chopra", "Nitin Kulkarni", "Shweta Agarwal"],
+    "budget": 4000000,
+    "risks": ["Vendor onboarding delays", "Regulatory approval pending"],
+    "reports": [
+      {"date": "2024-03-17", "type": "Monthly", "summary": "Blockchain network operational with 45 nodes. 200K+ transactions recorded. End-to-end traceability demonstrated.", "url": "/reports/proj008-mar2024.pdf"},
+      {"date": "2024-02-22", "type": "Milestone", "summary": "Smart contracts deployed for supplier verification and product authentication.", "url": "/reports/proj008-milestone-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-009",
+    "projectName": "Data Lake & Analytics Platform",
+    "client": "E-Commerce Platform",
+    "status": "In Progress",
+    "progress": 60,
+    "startDate": "2023-12-01",
+    "endDate": "2024-08-31",
+    "team": ["Ashok Kumar", "Rajeev Nair", "Swati Pillai", "Gaurav Saxena"],
+    "budget": 5500000,
+    "risks": ["Data governance framework implementation", "Cost optimization"],
+    "reports": [
+      {"date": "2024-03-11", "type": "Monthly", "summary": "Data lake ingesting 50TB data daily from 30 sources. Self-service BI portal launched for business users.", "url": "/reports/proj009-mar2024.pdf"},
+      {"date": "2024-02-18", "type": "Monthly", "summary": "ETL pipelines operational. Real-time streaming analytics enabled for clickstream data.", "url": "/reports/proj009-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-010",
+    "projectName": "DevOps Transformation",
+    "client": "Financial Services Corp",
+    "status": "In Progress",
+    "progress": 75,
+    "startDate": "2023-08-15",
+    "endDate": "2024-05-15",
+    "team": ["Vijay Krishnan", "Prakash Yadav", "Manisha Joshi"],
+    "budget": 3000000,
+    "risks": ["Cultural change adoption", "Legacy application compatibility"],
+    "reports": [
+      {"date": "2024-03-13", "type": "Monthly", "summary": "CI/CD pipelines deployed for 80 applications. Deployment frequency increased from monthly to daily.", "url": "/reports/proj010-mar2024.pdf"},
+      {"date": "2024-02-29", "type": "Milestone", "summary": "Infrastructure as Code implemented. 90% reduction in environment provisioning time.", "url": "/reports/proj010-milestone-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-011",
+    "projectName": "AI-Powered Customer Support",
+    "client": "E-Commerce Giant",
+    "status": "In Progress",
+    "progress": 50,
+    "startDate": "2024-01-20",
+    "endDate": "2024-09-30",
+    "team": ["Rakesh Mohan", "Nisha Verma", "Ananya Rao"],
+    "budget": 2800000,
+    "risks": ["Chatbot accuracy in complex queries", "Multilingual support challenges"],
+    "reports": [
+      {"date": "2024-03-15", "type": "Monthly", "summary": "Chatbot handling 60% of tier-1 queries. Sentiment analysis model deployed with 85% accuracy.", "url": "/reports/proj011-mar2024.pdf"},
+      {"date": "2024-02-20", "type": "Monthly", "summary": "NLP model training completed for English. Starting Hindi and Spanish training.", "url": "/reports/proj011-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-012",
+    "projectName": "Smart City IoT Platform",
+    "client": "Metropolitan City Council",
+    "status": "In Progress",
+    "progress": 40,
+    "startDate": "2024-02-01",
+    "endDate": "2025-01-31",
+    "team": ["Sunil Kumar", "Arjun Reddy", "Divya Menon", "Meera Krishnan"],
+    "budget": 12000000,
+    "risks": ["Multi-vendor integration", "Public-private partnership coordination", "Large scale deployment"],
+    "reports": [
+      {"date": "2024-03-18", "type": "Monthly", "summary": "Traffic management sensors deployed at 150 intersections. Air quality monitoring operational in 20 zones.", "url": "/reports/proj012-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Monthly", "summary": "Platform architecture finalized. Pilot deployment started in Zone-A covering 5 sq km.", "url": "/reports/proj012-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-013",
+    "projectName": "Medical Imaging AI",
+    "client": "Healthcare Systems",
+    "status": "In Progress",
+    "progress": 70,
+    "startDate": "2023-10-10",
+    "endDate": "2024-06-30",
+    "team": ["Dr. Sunita Patil", "Deepika Srinivas", "Kavya Nambiar"],
+    "budget": 3200000,
+    "risks": ["FDA approval timeline", "Clinical validation requirements"],
+    "reports": [
+      {"date": "2024-03-10", "type": "Milestone", "summary": "AI model achieved 94% accuracy in detecting lung nodules. Clinical trials underway with 3 hospitals.", "url": "/reports/proj013-milestone-mar2024.pdf"},
+      {"date": "2024-02-15", "type": "Monthly", "summary": "Model training completed on 100K annotated images. Radiologist review interface developed.", "url": "/reports/proj013-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-014",
+    "projectName": "Quantum Computing Research",
+    "client": "Investment Bank",
+    "status": "In Progress",
+    "progress": 35,
+    "startDate": "2024-01-15",
+    "endDate": "2024-12-31",
+    "team": ["Dr. Arun Kumar", "Naveen Kumar", "Vishal Mehta"],
+    "budget": 4500000,
+    "risks": ["Quantum hardware availability", "Algorithm complexity", "Skilled resource shortage"],
+    "reports": [
+      {"date": "2024-03-12", "type": "Monthly", "summary": "Portfolio optimization algorithm developed. Running simulations on IBM quantum simulator.", "url": "/reports/proj014-mar2024.pdf"},
+      {"date": "2024-02-18", "type": "Monthly", "summary": "Quantum algorithm research ongoing. Classical-quantum hybrid approach designed.", "url": "/reports/proj014-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-015",
+    "projectName": "AR Training Simulator",
+    "client": "Oil & Gas Company",
+    "status": "In Progress",
+    "progress": 80,
+    "startDate": "2023-07-01",
+    "endDate": "2024-04-30",
+    "team": ["Abhishek Jain", "Ritu Malhotra", "Sameer Gupta"],
+    "budget": 2200000,
+    "risks": ["Hardware procurement delays", "Content development timeline"],
+    "reports": [
+      {"date": "2024-03-14", "type": "Monthly", "summary": "12 training modules completed. 500+ employees trained with 90% satisfaction rating.", "url": "/reports/proj015-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Milestone", "summary": "VR headsets deployed to 5 training centers. Emergency response simulation module launched.", "url": "/reports/proj015-milestone-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-016",
+    "projectName": "Salesforce CRM Implementation",
+    "client": "B2B Software Company",
+    "status": "Completed",
+    "progress": 100,
+    "startDate": "2023-05-01",
+    "endDate": "2024-02-28",
+    "team": ["Sneha Kapoor", "Pooja Nair", "Reena Shah"],
+    "budget": 1500000,
+    "risks": [],
+    "reports": [
+      {"date": "2024-02-28", "type": "Milestone", "summary": "Project completed successfully. 300 sales users onboarded. Einstein AI analytics operational.", "url": "/reports/proj016-completion-feb2024.pdf"},
+      {"date": "2024-02-15", "type": "Monthly", "summary": "User training completed. Data migration successful. Go-live support ongoing.", "url": "/reports/proj016-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-017",
+    "projectName": "ESG Reporting Platform",
+    "client": "Global Manufacturing Corp",
+    "status": "In Progress",
+    "progress": 65,
+    "startDate": "2023-11-01",
+    "endDate": "2024-06-30",
+    "team": ["Meera Krishnan", "Satish Reddy", "Anjana Menon"],
+    "budget": 2000000,
+    "risks": ["ESG framework alignment", "Data collection from global sites"],
+    "reports": [
+      {"date": "2024-03-16", "type": "Monthly", "summary": "Carbon footprint tracking operational for 45 facilities. Automated ESG report generation implemented.", "url": "/reports/proj017-mar2024.pdf"},
+      {"date": "2024-02-25", "type": "Monthly", "summary": "Sustainability metrics dashboard launched. Integration with ERP for resource consumption data.", "url": "/reports/proj017-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-018",
+    "projectName": "5G Network Optimization",
+    "client": "Mobile Network Operator",
+    "status": "In Progress",
+    "progress": 55,
+    "startDate": "2024-01-05",
+    "endDate": "2024-10-31",
+    "team": ["Suresh Menon", "Rohit Sharma", "Pallavi Nair"],
+    "budget": 7000000,
+    "risks": ["Vendor coordination", "Spectrum availability", "Weather impact on deployment"],
+    "reports": [
+      {"date": "2024-03-17", "type": "Monthly", "summary": "AI-driven optimization improved coverage by 35% in 10 zones. Network congestion reduced by 40%.", "url": "/reports/proj018-mar2024.pdf"},
+      {"date": "2024-02-20", "type": "Monthly", "summary": "ML models deployed for predictive network planning. Real-time QoS monitoring implemented.", "url": "/reports/proj018-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-019",
+    "projectName": "API Monetization Platform",
+    "client": "Financial Data Provider",
+    "status": "In Progress",
+    "progress": 90,
+    "startDate": "2023-09-15",
+    "endDate": "2024-04-15",
+    "team": ["Kishore Rao", "Lata Krishnan", "Neha Agarwal"],
+    "budget": 2500000,
+    "risks": ["API adoption by external developers", "Pricing strategy"],
+    "reports": [
+      {"date": "2024-03-15", "type": "Monthly", "summary": "Developer portal live with 1200+ registered developers. $150K monthly recurring revenue achieved.", "url": "/reports/proj019-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Milestone", "summary": "API gateway deployed. Usage-based billing operational. 25 premium APIs published.", "url": "/reports/proj019-milestone-feb2024.pdf"}
+    ]
+  },
+  {
+    "id": "PROJ-020",
+    "projectName": "Low-Code Application Platform",
+    "client": "Government Agency",
+    "status": "In Progress",
+    "progress": 75,
+    "startDate": "2023-08-01",
+    "endDate": "2024-05-31",
+    "team": ["Riya Desai", "Sanjana Reddy", "Madhuri Iyer"],
+    "budget": 1800000,
+    "risks": ["Citizen developer governance", "Security compliance"],
+    "reports": [
+      {"date": "2024-03-18", "type": "Monthly", "summary": "180 applications created by citizen developers. 60% reduction in IT backlog achieved.", "url": "/reports/proj020-mar2024.pdf"},
+      {"date": "2024-02-28", "type": "Monthly", "summary": "Power Platform deployed. 250 users trained. Governance framework implemented.", "url": "/reports/proj020-feb2024.pdf"}
+    ]
+  }
+]

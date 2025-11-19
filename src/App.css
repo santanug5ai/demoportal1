@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  transition: margin-left 0.3s ease;
+  overflow-y: auto;
+  background: #f5f5f5;
+}
+
+.main-content.sidebar-closed {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    height: calc(100vh - 60px);
+  }
+}

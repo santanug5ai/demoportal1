@@ -1,0 +1,462 @@
+[
+  {
+    "id": "PORT-001",
+    "title": "AI-Powered Customer Experience Platform",
+    "category": "AI/ML",
+    "description": "Intelligent customer engagement solution using NLP and Machine Learning to enhance customer interactions",
+    "useCases": [
+      "Automated customer support with 24/7 availability",
+      "Sentiment analysis for customer feedback",
+      "Predictive customer churn prevention",
+      "Personalized product recommendations"
+    ],
+    "caseStudies": [
+      {
+        "client": "Global Retail Corp",
+        "industry": "Retail",
+        "challenge": "High customer service costs and inconsistent service quality across channels",
+        "solution": "Implemented AI chatbot with sentiment analysis and automated ticket routing",
+        "results": "40% reduction in support costs, 85% customer satisfaction, 60% faster resolution time"
+      }
+    ],
+    "technologies": ["Python", "TensorFlow", "NLP", "Azure Cognitive Services", "React"],
+    "createdDate": "2024-01-15"
+  },
+  {
+    "id": "PORT-002",
+    "title": "Cloud Migration & Modernization Suite",
+    "category": "Cloud",
+    "description": "End-to-end cloud migration solution for legacy applications to AWS/Azure/GCP",
+    "useCases": [
+      "Legacy application assessment and migration planning",
+      "Lift-and-shift migration",
+      "Re-platforming and refactoring",
+      "Cloud-native application development"
+    ],
+    "caseStudies": [
+      {
+        "client": "Financial Services Inc",
+        "industry": "Banking",
+        "challenge": "Outdated on-premise infrastructure limiting scalability and innovation",
+        "solution": "Migrated 200+ applications to Azure with containerization and microservices",
+        "results": "65% cost savings, 99.99% uptime, 10x faster deployment cycles"
+      }
+    ],
+    "technologies": ["AWS", "Azure", "GCP", "Kubernetes", "Docker", "Terraform"],
+    "createdDate": "2024-02-10"
+  },
+  {
+    "id": "PORT-003",
+    "title": "Blockchain Supply Chain Solution",
+    "category": "Blockchain",
+    "description": "Distributed ledger technology for transparent and secure supply chain management",
+    "useCases": [
+      "End-to-end product traceability",
+      "Smart contract automation",
+      "Counterfeit prevention",
+      "Supplier verification and compliance"
+    ],
+    "caseStudies": [
+      {
+        "client": "Pharma Global",
+        "industry": "Pharmaceutical",
+        "challenge": "Drug counterfeiting and lack of supply chain transparency",
+        "solution": "Implemented Hyperledger-based tracking system with IoT integration",
+        "results": "100% product traceability, 95% reduction in counterfeit incidents, regulatory compliance achieved"
+      }
+    ],
+    "technologies": ["Hyperledger Fabric", "Ethereum", "Solidity", "Node.js", "IoT"],
+    "createdDate": "2024-03-05"
+  },
+  {
+    "id": "PORT-004",
+    "title": "IoT-Enabled Smart Manufacturing",
+    "category": "IoT",
+    "description": "Industrial IoT platform for predictive maintenance and operational efficiency",
+    "useCases": [
+      "Real-time equipment monitoring",
+      "Predictive maintenance alerts",
+      "Energy consumption optimization",
+      "Quality control automation"
+    ],
+    "caseStudies": [
+      {
+        "client": "AutoManufacture Ltd",
+        "industry": "Automotive",
+        "challenge": "Unplanned downtime causing production losses",
+        "solution": "Deployed IoT sensors with ML-based predictive analytics dashboard",
+        "results": "45% reduction in downtime, $2M annual savings, 30% improved OEE"
+      }
+    ],
+    "technologies": ["Azure IoT Hub", "Python", "Edge Computing", "Power BI", "MQTT"],
+    "createdDate": "2024-01-20"
+  },
+  {
+    "id": "PORT-005",
+    "title": "Cybersecurity Operations Center (SOC)",
+    "category": "Security",
+    "description": "24/7 managed security operations with advanced threat detection and response",
+    "useCases": [
+      "Real-time threat monitoring",
+      "Security incident response",
+      "Vulnerability management",
+      "Compliance reporting"
+    ],
+    "caseStudies": [
+      {
+        "client": "HealthCare Systems",
+        "industry": "Healthcare",
+        "challenge": "Increasing cyber threats and HIPAA compliance requirements",
+        "solution": "Implemented SOC with SIEM, threat intelligence, and automated response",
+        "results": "99.9% threat detection rate, 80% faster incident response, full HIPAA compliance"
+      }
+    ],
+    "technologies": ["Splunk", "QRadar", "CrowdStrike", "Firewall", "SIEM"],
+    "createdDate": "2024-02-28"
+  },
+  {
+    "id": "PORT-006",
+    "title": "Data Analytics & Business Intelligence Platform",
+    "category": "Data Analytics",
+    "description": "Enterprise-scale analytics platform for data-driven decision making",
+    "useCases": [
+      "Self-service BI dashboards",
+      "Advanced analytics and forecasting",
+      "Real-time data streaming",
+      "Data lake implementation"
+    ],
+    "caseStudies": [
+      {
+        "client": "Telecom Network Co",
+        "industry": "Telecommunications",
+        "challenge": "Siloed data across systems preventing business insights",
+        "solution": "Built unified data platform with Power BI and Azure Synapse Analytics",
+        "results": "Single source of truth, 50% faster reporting, $5M revenue optimization"
+      }
+    ],
+    "technologies": ["Power BI", "Tableau", "Azure Synapse", "Snowflake", "Python"],
+    "createdDate": "2024-03-12"
+  },
+  {
+    "id": "PORT-007",
+    "title": "DevOps Transformation Suite",
+    "category": "DevOps",
+    "description": "Complete CI/CD pipeline automation and DevOps culture transformation",
+    "useCases": [
+      "Automated build and deployment",
+      "Infrastructure as Code",
+      "Continuous monitoring",
+      "Release management"
+    ],
+    "caseStudies": [
+      {
+        "client": "E-Commerce Giant",
+        "industry": "E-commerce",
+        "challenge": "Manual deployments causing delays and errors",
+        "solution": "Implemented Jenkins/GitLab CI/CD with automated testing and deployment",
+        "results": "Daily deployments enabled, 90% reduction in deployment errors, 5x faster time-to-market"
+      }
+    ],
+    "technologies": ["Jenkins", "GitLab", "Ansible", "Kubernetes", "Prometheus"],
+    "createdDate": "2024-01-08"
+  },
+  {
+    "id": "PORT-008",
+    "title": "Mobile-First Digital Banking",
+    "category": "Mobile",
+    "description": "Next-generation mobile banking application with advanced features",
+    "useCases": [
+      "Biometric authentication",
+      "Instant payments and transfers",
+      "Personal finance management",
+      "AI-powered financial advice"
+    ],
+    "caseStudies": [
+      {
+        "client": "Regional Bank",
+        "industry": "Banking",
+        "challenge": "Low digital adoption and customer engagement",
+        "solution": "Developed feature-rich mobile app with seamless UX and security",
+        "results": "2M+ downloads, 75% digital adoption, 4.8 App Store rating"
+      }
+    ],
+    "technologies": ["React Native", "Node.js", "MongoDB", "OAuth 2.0", "AWS"],
+    "createdDate": "2024-02-14"
+  },
+  {
+    "id": "PORT-009",
+    "title": "Robotic Process Automation (RPA) Platform",
+    "category": "Automation",
+    "description": "Intelligent automation for repetitive business processes",
+    "useCases": [
+      "Invoice processing automation",
+      "Data entry and migration",
+      "Report generation",
+      "Customer onboarding"
+    ],
+    "caseStudies": [
+      {
+        "client": "Insurance Providers Ltd",
+        "industry": "Insurance",
+        "challenge": "Manual claims processing taking 7-10 days",
+        "solution": "Deployed UiPath bots with OCR and validation logic",
+        "results": "Claims processed in 2 hours, 70% cost reduction, 99% accuracy"
+      }
+    ],
+    "technologies": ["UiPath", "Automation Anywhere", "Blue Prism", "Python", "OCR"],
+    "createdDate": "2024-03-01"
+  },
+  {
+    "id": "PORT-010",
+    "title": "SAP S/4HANA Transformation",
+    "category": "ERP",
+    "description": "Enterprise resource planning modernization with SAP S/4HANA",
+    "useCases": [
+      "Legacy SAP upgrade",
+      "Business process reengineering",
+      "Master data management",
+      "Integration with third-party systems"
+    ],
+    "caseStudies": [
+      {
+        "client": "Manufacturing Conglomerate",
+        "industry": "Manufacturing",
+        "challenge": "Outdated ECC system limiting real-time insights",
+        "solution": "Migrated to SAP S/4HANA with Fiori UX and cloud integration",
+        "results": "Real-time analytics enabled, 40% faster processes, $3M annual savings"
+      }
+    ],
+    "technologies": ["SAP S/4HANA", "Fiori", "ABAP", "SAP Cloud Platform", "APIs"],
+    "createdDate": "2024-01-25"
+  },
+  {
+    "id": "PORT-011",
+    "title": "Cognitive Document Processing",
+    "category": "AI/ML",
+    "description": "AI-powered intelligent document understanding and extraction",
+    "useCases": [
+      "Automated document classification",
+      "Data extraction from forms",
+      "Contract analysis",
+      "Compliance checking"
+    ],
+    "caseStudies": [
+      {
+        "client": "Legal Services Corp",
+        "industry": "Legal",
+        "challenge": "Manual contract review taking 100+ hours per contract",
+        "solution": "Implemented Azure Form Recognizer with custom ML models",
+        "results": "90% time savings, 95% accuracy, $500K annual cost reduction"
+      }
+    ],
+    "technologies": ["Azure Cognitive Services", "Python", "OCR", "NLP", "TensorFlow"],
+    "createdDate": "2024-02-18"
+  },
+  {
+    "id": "PORT-012",
+    "title": "Edge Computing for Retail",
+    "category": "Edge Computing",
+    "description": "Low-latency edge analytics for retail operations",
+    "useCases": [
+      "Real-time inventory tracking",
+      "Customer behavior analytics",
+      "Smart checkout systems",
+      "Personalized promotions"
+    ],
+    "caseStudies": [
+      {
+        "client": "Retail Chain Network",
+        "industry": "Retail",
+        "challenge": "Cloud latency affecting real-time decisions",
+        "solution": "Deployed edge servers with AI models at 500+ store locations",
+        "results": "Sub-100ms latency, 35% sales increase, better customer experience"
+      }
+    ],
+    "technologies": ["Azure IoT Edge", "TensorFlow Lite", "MQTT", "Python", "Redis"],
+    "createdDate": "2024-03-08"
+  },
+  {
+    "id": "PORT-013",
+    "title": "Quantum Computing Research Platform",
+    "category": "Quantum",
+    "description": "Quantum computing solutions for complex optimization problems",
+    "useCases": [
+      "Portfolio optimization",
+      "Drug discovery simulation",
+      "Route optimization",
+      "Cryptography research"
+    ],
+    "caseStudies": [
+      {
+        "client": "Investment Bank",
+        "industry": "Finance",
+        "challenge": "Classical computing unable to optimize large portfolios",
+        "solution": "Developed quantum algorithms using IBM Qiskit",
+        "results": "10x faster optimization, better risk-adjusted returns, competitive advantage"
+      }
+    ],
+    "technologies": ["IBM Qiskit", "Azure Quantum", "Python", "Q#", "Quantum Algorithms"],
+    "createdDate": "2024-01-30"
+  },
+  {
+    "id": "PORT-014",
+    "title": "AR/VR Training Simulator",
+    "category": "AR/VR",
+    "description": "Immersive training solutions using augmented and virtual reality",
+    "useCases": [
+      "Safety training simulations",
+      "Equipment operation training",
+      "Virtual site visits",
+      "Remote collaboration"
+    ],
+    "caseStudies": [
+      {
+        "client": "Oil & Gas Company",
+        "industry": "Energy",
+        "challenge": "High cost and risk in physical training",
+        "solution": "Created VR training modules for hazardous scenarios",
+        "results": "60% training cost reduction, zero training accidents, 85% knowledge retention"
+      }
+    ],
+    "technologies": ["Unity", "Unreal Engine", "Oculus SDK", "HoloLens", "C#"],
+    "createdDate": "2024-02-22"
+  },
+  {
+    "id": "PORT-015",
+    "title": "5G Network Optimization",
+    "category": "Telecommunications",
+    "description": "Advanced 5G network planning and optimization solutions",
+    "useCases": [
+      "Network capacity planning",
+      "Quality of service optimization",
+      "Predictive maintenance",
+      "Coverage mapping"
+    ],
+    "caseStudies": [
+      {
+        "client": "Mobile Network Operator",
+        "industry": "Telecom",
+        "challenge": "Poor 5G coverage and network congestion",
+        "solution": "AI-driven network optimization with real-time analytics",
+        "results": "40% coverage improvement, 50% congestion reduction, enhanced QoS"
+      }
+    ],
+    "technologies": ["Python", "Machine Learning", "RF Planning Tools", "Big Data", "APIs"],
+    "createdDate": "2024-03-15"
+  },
+  {
+    "id": "PORT-016",
+    "title": "Salesforce Digital Transformation",
+    "category": "CRM",
+    "description": "Comprehensive Salesforce implementation and customization",
+    "useCases": [
+      "Sales force automation",
+      "Customer 360 view",
+      "Marketing automation",
+      "Service cloud implementation"
+    ],
+    "caseStudies": [
+      {
+        "client": "B2B Software Company",
+        "industry": "Technology",
+        "challenge": "Fragmented customer data across multiple systems",
+        "solution": "Implemented Salesforce with custom integrations and Einstein AI",
+        "results": "30% sales productivity increase, 360° customer view, 25% revenue growth"
+      }
+    ],
+    "technologies": ["Salesforce", "Apex", "Lightning", "Einstein AI", "REST APIs"],
+    "createdDate": "2024-01-12"
+  },
+  {
+    "id": "PORT-017",
+    "title": "Sustainability & ESG Platform",
+    "category": "Sustainability",
+    "description": "Environmental, Social, and Governance tracking and reporting solution",
+    "useCases": [
+      "Carbon footprint tracking",
+      "ESG reporting automation",
+      "Sustainability goal monitoring",
+      "Regulatory compliance"
+    ],
+    "caseStudies": [
+      {
+        "client": "Global Manufacturing Corp",
+        "industry": "Manufacturing",
+        "challenge": "Manual ESG reporting and lack of sustainability visibility",
+        "solution": "Built integrated ESG platform with real-time dashboards",
+        "results": "Automated reporting, 30% carbon reduction achieved, investor confidence improved"
+      }
+    ],
+    "technologies": ["Power BI", "Azure", "Python", "APIs", "Data Integration"],
+    "createdDate": "2024-02-25"
+  },
+  {
+    "id": "PORT-018",
+    "title": "Digital Twin for Smart Cities",
+    "category": "Smart Cities",
+    "description": "Virtual replica of city infrastructure for planning and optimization",
+    "useCases": [
+      "Traffic flow optimization",
+      "Infrastructure planning",
+      "Emergency response simulation",
+      "Resource allocation"
+    ],
+    "caseStudies": [
+      {
+        "client": "Metropolitan City Council",
+        "industry": "Government",
+        "challenge": "Traffic congestion and inefficient resource planning",
+        "solution": "Created digital twin with IoT integration and predictive analytics",
+        "results": "25% traffic reduction, optimized emergency response, better urban planning"
+      }
+    ],
+    "technologies": ["Azure Digital Twins", "IoT", "3D Modeling", "AI/ML", "GIS"],
+    "createdDate": "2024-03-10"
+  },
+  {
+    "id": "PORT-019",
+    "title": "API Management & Monetization",
+    "category": "API Economy",
+    "description": "Enterprise API gateway with monetization capabilities",
+    "useCases": [
+      "API lifecycle management",
+      "Developer portal",
+      "Usage-based billing",
+      "API security and governance"
+    ],
+    "caseStudies": [
+      {
+        "client": "Financial Data Provider",
+        "industry": "FinTech",
+        "challenge": "Unmonetized APIs and poor developer experience",
+        "solution": "Implemented Azure API Management with developer portal and billing",
+        "results": "$2M new revenue stream, 1000+ external developers onboarded, 99.99% uptime"
+      }
+    ],
+    "technologies": ["Azure API Management", "Kong", "OAuth 2.0", "Swagger", "Node.js"],
+    "createdDate": "2024-01-18"
+  },
+  {
+    "id": "PORT-020",
+    "title": "Low-Code Development Platform",
+    "category": "Low-Code",
+    "description": "Rapid application development using low-code/no-code tools",
+    "useCases": [
+      "Citizen developer enablement",
+      "Legacy app modernization",
+      "Workflow automation",
+      "Rapid prototyping"
+    ],
+    "caseStudies": [
+      {
+        "client": "Government Agency",
+        "industry": "Government",
+        "challenge": "IT backlog causing 6-month delays for new applications",
+        "solution": "Deployed Power Platform enabling citizen developers",
+        "results": "10x faster development, 200+ apps created, $1M cost savings"
+      }
+    ],
+    "technologies": ["Microsoft Power Platform", "OutSystems", "Mendix", "Azure", "APIs"],
+    "createdDate": "2024-02-05"
+  }
+]

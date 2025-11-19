@@ -1,0 +1,322 @@
+[
+  {
+    "id": "INCUB-001",
+    "projectName": "Quantum-Safe Cryptography Suite",
+    "description": "Post-quantum cryptography solution for future-proof security",
+    "category": "Security",
+    "stage": "Development",
+    "startDate": "2024-01-10",
+    "estimatedCompletion": "2024-09-30",
+    "team": ["Dr. Arun Kumar", "Neha Agarwal", "Vikram Singh"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Algorithm Research", "status": "Completed", "dueDate": "2024-02-28"},
+      {"name": "Prototype Development", "status": "In Progress", "dueDate": "2024-05-31"},
+      {"name": "Security Audit", "status": "Pending", "dueDate": "2024-08-15"}
+    ]
+  },
+  {
+    "id": "INCUB-002",
+    "projectName": "Autonomous Drone Fleet Management",
+    "description": "AI-powered autonomous drone coordination for logistics and surveillance",
+    "category": "AI/ML",
+    "stage": "Pilot",
+    "startDate": "2023-10-15",
+    "estimatedCompletion": "2024-06-30",
+    "team": ["Rajiv Malhotra", "Sneha Kapoor", "Arjun Reddy", "Pooja Nair"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Proof of Concept", "status": "Completed", "dueDate": "2024-01-15"},
+      {"name": "Pilot Deployment", "status": "In Progress", "dueDate": "2024-04-30"},
+      {"name": "Production Readiness", "status": "Pending", "dueDate": "2024-06-30"}
+    ]
+  },
+  {
+    "id": "INCUB-003",
+    "projectName": "Carbon Footprint Analytics Platform",
+    "description": "Real-time carbon emission tracking and ESG reporting solution",
+    "category": "Sustainability",
+    "stage": "Testing",
+    "startDate": "2023-12-01",
+    "estimatedCompletion": "2024-05-31",
+    "team": ["Meera Krishnan", "Rohit Sharma", "Divya Menon"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Data Integration", "status": "Completed", "dueDate": "2024-02-15"},
+      {"name": "Analytics Engine", "status": "Completed", "dueDate": "2024-03-30"},
+      {"name": "UAT Testing", "status": "In Progress", "dueDate": "2024-05-15"}
+    ]
+  },
+  {
+    "id": "INCUB-004",
+    "projectName": "Conversational AI for Healthcare",
+    "description": "Medical diagnosis assistant using TCS CMI and NLP",
+    "category": "Healthcare",
+    "stage": "Development",
+    "startDate": "2024-02-01",
+    "estimatedCompletion": "2024-10-31",
+    "team": ["Dr. Sunita Patil", "Karthik Venkat", "Ananya Rao"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Medical Knowledge Base", "status": "In Progress", "dueDate": "2024-05-30"},
+      {"name": "NLP Model Training", "status": "Pending", "dueDate": "2024-08-31"},
+      {"name": "Clinical Validation", "status": "Pending", "dueDate": "2024-10-31"}
+    ]
+  },
+  {
+    "id": "INCUB-005",
+    "projectName": "Metaverse Commerce Platform",
+    "description": "Virtual reality shopping experience with blockchain payments",
+    "category": "AR/VR",
+    "stage": "Ideation",
+    "startDate": "2024-03-01",
+    "estimatedCompletion": "2025-03-31",
+    "team": ["Abhishek Jain", "Riya Desai"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Market Research", "status": "In Progress", "dueDate": "2024-04-30"},
+      {"name": "Architecture Design", "status": "Pending", "dueDate": "2024-06-30"},
+      {"name": "MVP Development", "status": "Pending", "dueDate": "2024-12-31"}
+    ]
+  },
+  {
+    "id": "INCUB-006",
+    "projectName": "Edge AI for Manufacturing",
+    "description": "Real-time quality control using edge computing and computer vision",
+    "category": "Manufacturing",
+    "stage": "Pilot",
+    "startDate": "2023-11-20",
+    "estimatedCompletion": "2024-04-30",
+    "team": ["Sunil Kumar", "Priyanka Bhat", "Manoj Tiwari"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Model Development", "status": "Completed", "dueDate": "2024-01-31"},
+      {"name": "Edge Deployment", "status": "In Progress", "dueDate": "2024-04-15"},
+      {"name": "Performance Validation", "status": "Pending", "dueDate": "2024-04-30"}
+    ]
+  },
+  {
+    "id": "INCUB-007",
+    "projectName": "Decentralized Identity Management",
+    "description": "Blockchain-based digital identity verification system",
+    "category": "Blockchain",
+    "stage": "Development",
+    "startDate": "2024-01-15",
+    "estimatedCompletion": "2024-08-31",
+    "team": ["Varun Chopra", "Shweta Agarwal", "Nitin Kulkarni"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Smart Contract Development", "status": "In Progress", "dueDate": "2024-04-30"},
+      {"name": "Mobile App Development", "status": "Pending", "dueDate": "2024-07-15"},
+      {"name": "Security Testing", "status": "Pending", "dueDate": "2024-08-31"}
+    ]
+  },
+  {
+    "id": "INCUB-008",
+    "projectName": "Neural Search Engine",
+    "description": "Semantic search using transformer models and vector databases",
+    "category": "AI/ML",
+    "stage": "Testing",
+    "startDate": "2023-09-01",
+    "estimatedCompletion": "2024-04-15",
+    "team": ["Rakesh Mohan", "Deepika Srinivas", "Aditya Narayan"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Model Training", "status": "Completed", "dueDate": "2023-12-31"},
+      {"name": "Integration Testing", "status": "In Progress", "dueDate": "2024-03-31"},
+      {"name": "Performance Benchmarking", "status": "Pending", "dueDate": "2024-04-15"}
+    ]
+  },
+  {
+    "id": "INCUB-009",
+    "projectName": "Smart Contract Audit Automation",
+    "description": "AI-powered smart contract vulnerability detection",
+    "category": "Security",
+    "stage": "Development",
+    "startDate": "2024-02-15",
+    "estimatedCompletion": "2024-09-15",
+    "team": ["Harish Babu", "Kavya Nambiar"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Vulnerability Database", "status": "In Progress", "dueDate": "2024-05-31"},
+      {"name": "AI Model Training", "status": "Pending", "dueDate": "2024-07-31"},
+      {"name": "Tool Development", "status": "Pending", "dueDate": "2024-09-15"}
+    ]
+  },
+  {
+    "id": "INCUB-010",
+    "projectName": "Predictive Supply Chain Intelligence",
+    "description": "ML-based demand forecasting and supply chain optimization using TCS CMI",
+    "category": "Supply Chain",
+    "stage": "Pilot",
+    "startDate": "2023-08-01",
+    "estimatedCompletion": "2024-05-31",
+    "team": ["Sanjana Reddy", "Vivek Pandey", "Reena Shah", "Gaurav Saxena"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Data Pipeline Setup", "status": "Completed", "dueDate": "2023-11-30"},
+      {"name": "Predictive Model Development", "status": "Completed", "dueDate": "2024-02-28"},
+      {"name": "Client Pilot", "status": "In Progress", "dueDate": "2024-05-31"}
+    ]
+  },
+  {
+    "id": "INCUB-011",
+    "projectName": "Emotion AI for Customer Service",
+    "description": "Real-time emotion detection in customer interactions",
+    "category": "AI/ML",
+    "stage": "Development",
+    "startDate": "2024-01-20",
+    "estimatedCompletion": "2024-07-31",
+    "team": ["Nisha Verma", "Rahul Khanna"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Dataset Collection", "status": "Completed", "dueDate": "2024-03-15"},
+      {"name": "Model Training", "status": "In Progress", "dueDate": "2024-06-15"},
+      {"name": "Integration Testing", "status": "Pending", "dueDate": "2024-07-31"}
+    ]
+  },
+  {
+    "id": "INCUB-012",
+    "projectName": "Serverless Data Lake Platform",
+    "description": "Cost-optimized serverless architecture for data lakes",
+    "category": "Cloud",
+    "stage": "Testing",
+    "startDate": "2023-10-01",
+    "estimatedCompletion": "2024-04-30",
+    "team": ["Ashok Kumar", "Swati Pillai", "Rajeev Nair"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Architecture Design", "status": "Completed", "dueDate": "2023-12-31"},
+      {"name": "Implementation", "status": "Completed", "dueDate": "2024-03-15"},
+      {"name": "Performance Testing", "status": "In Progress", "dueDate": "2024-04-30"}
+    ]
+  },
+  {
+    "id": "INCUB-013",
+    "projectName": "Automated Code Review Assistant",
+    "description": "AI-powered code quality and security analysis using TCS CMI",
+    "category": "DevOps",
+    "stage": "Pilot",
+    "startDate": "2023-11-01",
+    "estimatedCompletion": "2024-05-15",
+    "team": ["Vijay Krishnan", "Manisha Joshi", "Prakash Yadav"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Rule Engine Development", "status": "Completed", "dueDate": "2024-01-31"},
+      {"name": "AI Model Integration", "status": "Completed", "dueDate": "2024-03-31"},
+      {"name": "Internal Pilot", "status": "In Progress", "dueDate": "2024-05-15"}
+    ]
+  },
+  {
+    "id": "INCUB-014",
+    "projectName": "Voice-Activated Business Intelligence",
+    "description": "Natural language query interface for BI dashboards",
+    "category": "Data Analytics",
+    "stage": "Development",
+    "startDate": "2024-02-10",
+    "estimatedCompletion": "2024-08-31",
+    "team": ["Ritu Malhotra", "Sameer Gupta"],
+    "status": "Active",
+    "milestones": [
+      {"name": "NLP Integration", "status": "In Progress", "dueDate": "2024-05-15"},
+      {"name": "BI Connector Development", "status": "Pending", "dueDate": "2024-07-15"},
+      {"name": "Voice Interface", "status": "Pending", "dueDate": "2024-08-31"}
+    ]
+  },
+  {
+    "id": "INCUB-015",
+    "projectName": "Synthetic Data Generation Platform",
+    "description": "Privacy-preserving synthetic data generation using GANs",
+    "category": "AI/ML",
+    "stage": "Testing",
+    "startDate": "2023-12-15",
+    "estimatedCompletion": "2024-06-15",
+    "team": ["Aruna Desai", "Kishore Rao", "Madhuri Iyer"],
+    "status": "Active",
+    "milestones": [
+      {"name": "GAN Model Development", "status": "Completed", "dueDate": "2024-03-15"},
+      {"name": "Quality Validation", "status": "In Progress", "dueDate": "2024-05-15"},
+      {"name": "Privacy Audit", "status": "Pending", "dueDate": "2024-06-15"}
+    ]
+  },
+  {
+    "id": "INCUB-016",
+    "projectName": "Federated Learning Framework",
+    "description": "Privacy-preserving distributed machine learning platform",
+    "category": "AI/ML",
+    "stage": "Development",
+    "startDate": "2024-01-05",
+    "estimatedCompletion": "2024-09-30",
+    "team": ["Naveen Kumar", "Shruti Bansal", "Vishal Mehta"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Protocol Design", "status": "In Progress", "dueDate": "2024-04-30"},
+      {"name": "Framework Implementation", "status": "Pending", "dueDate": "2024-07-31"},
+      {"name": "Security Testing", "status": "Pending", "dueDate": "2024-09-30"}
+    ]
+  },
+  {
+    "id": "INCUB-017",
+    "projectName": "Robotic Process Mining",
+    "description": "AI-powered process discovery and optimization",
+    "category": "Automation",
+    "stage": "Pilot",
+    "startDate": "2023-09-15",
+    "estimatedCompletion": "2024-04-30",
+    "team": ["Mohan Das", "Lata Krishnan"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Process Mining Engine", "status": "Completed", "dueDate": "2023-12-31"},
+      {"name": "Visualization Dashboard", "status": "Completed", "dueDate": "2024-02-28"},
+      {"name": "Customer Pilot", "status": "In Progress", "dueDate": "2024-04-30"}
+    ]
+  },
+  {
+    "id": "INCUB-018",
+    "projectName": "Graph Database for Fraud Detection",
+    "description": "Real-time fraud pattern detection using graph analytics",
+    "category": "Security",
+    "stage": "Testing",
+    "startDate": "2023-10-20",
+    "estimatedCompletion": "2024-05-15",
+    "team": ["Ramya Subramanian", "Ajay Menon", "Pallavi Nair"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Graph Model Design", "status": "Completed", "dueDate": "2024-01-15"},
+      {"name": "Pattern Detection Algorithms", "status": "Completed", "dueDate": "2024-03-15"},
+      {"name": "Performance Testing", "status": "In Progress", "dueDate": "2024-05-15"}
+    ]
+  },
+  {
+    "id": "INCUB-019",
+    "projectName": "Automated API Documentation",
+    "description": "AI-generated API documentation from code analysis",
+    "category": "DevOps",
+    "stage": "Development",
+    "startDate": "2024-02-01",
+    "estimatedCompletion": "2024-07-31",
+    "team": ["Suresh Babu", "Neelam Singh"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Code Parser Development", "status": "In Progress", "dueDate": "2024-04-30"},
+      {"name": "Documentation Generator", "status": "Pending", "dueDate": "2024-06-30"},
+      {"name": "Tool Integration", "status": "Pending", "dueDate": "2024-07-31"}
+    ]
+  },
+  {
+    "id": "INCUB-020",
+    "projectName": "Climate Risk Analytics",
+    "description": "AI-powered climate risk assessment for financial portfolios using TCS CMI",
+    "category": "Sustainability",
+    "stage": "Ideation",
+    "startDate": "2024-03-15",
+    "estimatedCompletion": "2025-03-15",
+    "team": ["Satish Reddy", "Anjana Menon"],
+    "status": "Active",
+    "milestones": [
+      {"name": "Climate Data Integration", "status": "Pending", "dueDate": "2024-06-30"},
+      {"name": "Risk Model Development", "status": "Pending", "dueDate": "2024-10-31"},
+      {"name": "Validation & Testing", "status": "Pending", "dueDate": "2025-02-28"}
+    ]
+  }
+]
