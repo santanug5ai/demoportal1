@@ -64,6 +64,10 @@ demoportal1/
 └── README.md
 ```
 
+## Live Demo
+
+🌐 **GitHub Pages**: https://santanug5ai.github.io/demoportal1/
+
 ## Installation
 
 ### Prerequisites
@@ -84,7 +88,7 @@ npm run dev
 
 This will start:
 - **Backend API**: http://localhost:5000
-- **Frontend UI**: http://localhost:3000
+- **Frontend UI**: http://localhost:3008
 
 The application will automatically open in your default browser.
 
