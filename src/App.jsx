@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import staticDataService from './services/staticDataService';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import ChatInterface from './components/ChatInterface';
@@ -14,15 +15,8 @@ function App() {
     // Fetch initial statistics
     const fetchStats = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: 'overview' })
-        });
-        const data = await response.json();
-        if (data.data) {
-          setStats(data.data);
-        }
+        const data = await staticDataService.getStatistics();
+        setStats(data);
       } catch (error) {
         console.error('Failed to fetch stats:', error);
       }

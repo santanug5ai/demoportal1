@@ -1,0 +1,227 @@
+[
+  {
+    "id": "SKILL-001",
+    "name": "Python Programming",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Advanced Python development including frameworks like Django, Flask, FastAPI",
+    "relatedTechnologies": ["Django", "Flask", "FastAPI", "NumPy", "Pandas"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-002",
+    "name": "AWS Cloud Architecture",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Design and implementation of scalable cloud solutions on AWS",
+    "relatedTechnologies": ["EC2", "S3", "Lambda", "RDS", "CloudFormation"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-003",
+    "name": "Machine Learning",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "ML model development, training, and deployment at scale",
+    "relatedTechnologies": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "MLflow"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-004",
+    "name": "React.js Development",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Modern React development with hooks, context, and state management",
+    "relatedTechnologies": ["React", "Redux", "Next.js", "TypeScript", "Tailwind CSS"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-005",
+    "name": "Kubernetes Orchestration",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Container orchestration and management using Kubernetes",
+    "relatedTechnologies": ["Docker", "Helm", "Istio", "Prometheus", "Grafana"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-006",
+    "name": "Cybersecurity",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Application security, threat modeling, and secure architecture design",
+    "relatedTechnologies": ["SIEM", "Penetration Testing", "Cryptography", "Security Audits"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-007",
+    "name": "Data Engineering",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Building and maintaining data pipelines and ETL processes",
+    "relatedTechnologies": ["Apache Spark", "Airflow", "Kafka", "Snowflake", "dbt"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-008",
+    "name": "DevOps Engineering",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "CI/CD pipeline automation and infrastructure as code",
+    "relatedTechnologies": ["Jenkins", "GitLab CI", "Terraform", "Ansible", "Azure DevOps"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-009",
+    "name": "Azure Cloud Solutions",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Comprehensive Azure cloud service implementation and management",
+    "relatedTechnologies": ["Azure Functions", "AKS", "Azure SQL", "Logic Apps", "ARM Templates"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-010",
+    "name": "Blockchain Development",
+    "category": "Technical",
+    "level": "Intermediate",
+    "description": "Smart contract development and DApp creation",
+    "relatedTechnologies": ["Solidity", "Ethereum", "Hyperledger", "Web3.js", "Truffle"],
+    "demandLevel": "Medium"
+  },
+  {
+    "id": "SKILL-011",
+    "name": "SAP Consulting",
+    "category": "Domain",
+    "level": "Expert",
+    "description": "SAP implementation, customization, and optimization",
+    "relatedTechnologies": ["SAP S/4HANA", "ABAP", "Fiori", "SAP BTP", "SAP Analytics"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-012",
+    "name": "Agile Project Management",
+    "category": "Soft Skills",
+    "level": "Expert",
+    "description": "Leading agile teams using Scrum, Kanban, and SAFe methodologies",
+    "relatedTechnologies": ["Jira", "Confluence", "Azure Boards", "Rally"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-013",
+    "name": "Node.js Backend Development",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Building scalable backend services with Node.js and Express",
+    "relatedTechnologies": ["Express", "NestJS", "MongoDB", "PostgreSQL", "GraphQL"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-014",
+    "name": "Business Analysis",
+    "category": "Domain",
+    "level": "Expert",
+    "description": "Requirements gathering, process modeling, and stakeholder management",
+    "relatedTechnologies": ["BPMN", "UML", "Visio", "Lucidchart", "Enterprise Architect"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-015",
+    "name": "Natural Language Processing",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Text analytics, chatbots, and language understanding systems",
+    "relatedTechnologies": ["spaCy", "NLTK", "BERT", "GPT", "Transformers"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-016",
+    "name": "Salesforce Development",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Custom Salesforce development and integration",
+    "relatedTechnologies": ["Apex", "Lightning", "Visualforce", "SOQL", "REST APIs"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-017",
+    "name": "IoT Solutions",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "End-to-end IoT system design and implementation",
+    "relatedTechnologies": ["MQTT", "Azure IoT Hub", "Arduino", "Raspberry Pi", "Edge Computing"],
+    "demandLevel": "Medium"
+  },
+  {
+    "id": "SKILL-018",
+    "name": "UI/UX Design",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "User-centered design and intuitive interface creation",
+    "relatedTechnologies": ["Figma", "Adobe XD", "Sketch", "InVision", "User Research"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-019",
+    "name": "Financial Domain Expertise",
+    "category": "Domain",
+    "level": "Expert",
+    "description": "Banking, trading systems, and financial regulations knowledge",
+    "relatedTechnologies": ["FIX Protocol", "Risk Management", "Trading Platforms", "Basel III"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-020",
+    "name": "Microservices Architecture",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Designing and implementing microservices-based systems",
+    "relatedTechnologies": ["Docker", "Kubernetes", "Service Mesh", "API Gateway", "Event-Driven"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-021",
+    "name": "RPA Development",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Building automation workflows using RPA tools",
+    "relatedTechnologies": ["UiPath", "Automation Anywhere", "Blue Prism", "Power Automate"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-022",
+    "name": "GraphQL API Development",
+    "category": "Technical",
+    "level": "Intermediate",
+    "description": "Designing and implementing GraphQL APIs",
+    "relatedTechnologies": ["Apollo", "GraphQL Yoga", "Prisma", "Hasura", "React Query"],
+    "demandLevel": "Medium"
+  },
+  {
+    "id": "SKILL-023",
+    "name": "Change Management",
+    "category": "Soft Skills",
+    "level": "Expert",
+    "description": "Leading organizational change and transformation initiatives",
+    "relatedTechnologies": ["PROSCI", "ADKAR", "Stakeholder Engagement", "Communication"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-024",
+    "name": "Big Data Analytics",
+    "category": "Technical",
+    "level": "Advanced",
+    "description": "Processing and analyzing large-scale datasets",
+    "relatedTechnologies": ["Hadoop", "Spark", "Hive", "Presto", "Data Lakes"],
+    "demandLevel": "High"
+  },
+  {
+    "id": "SKILL-025",
+    "name": "Mobile App Development",
+    "category": "Technical",
+    "level": "Expert",
+    "description": "Native and cross-platform mobile application development",
+    "relatedTechnologies": ["React Native", "Flutter", "Swift", "Kotlin", "Xamarin"],
+    "demandLevel": "High"
+  }
+]

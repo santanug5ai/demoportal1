@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
+import staticDataService from '../services/staticDataService';
 import MessageBubble from './MessageBubble';
 import './ChatInterface.css';
 
@@ -54,24 +54,22 @@ const ChatInterface = () => {
     setIsTyping(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/chat', {
-        message: textToSend
-      });
+      const response = await staticDataService.processChat(textToSend);
 
       setTimeout(() => {
         const botMessage = {
           id: Date.now() + 1,
           type: 'bot',
-          text: response.data.text,
-          responseType: response.data.responseType,
-          data: response.data.data,
-          suggestions: response.data.suggestions,
+          text: response.text,
+          responseType: response.responseType,
+          data: response.data,
+          suggestions: response.suggestions,
           timestamp: new Date()
         };
 
         setMessages(prev => [...prev, botMessage]);
         setIsTyping(false);
-      }, 800);
+      }, 300);
     } catch (error) {
       console.error('Error sending message:', error);
       const errorMessage = {
