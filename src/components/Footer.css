@@ -34,24 +34,32 @@
   margin-bottom: 8px;
 }
 
-.footer-section ul {
+.footer-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-section ul li {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+.footer-links li {
   margin-bottom: 8px;
-  padding-left: 0;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
-.footer-section ul li:hover {
+.footer-link-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 6px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+}
+
+.footer-link-btn:hover {
   color: #00BCD4;
-  padding-left: 5px;
+  transform: translateX(5px);
 }
 
 .cmi-description {

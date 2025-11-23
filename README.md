@@ -12,10 +12,11 @@ A comprehensive conversational UI portal built for TATA Consultancy Services (TC
 - **Incubation Projects**: Track 20+ innovation projects including TCS CMI initiatives
 - **Project Management**: Monitor 20+ active and completed projects with real-time reports
 
-### Conversational AI Interface
+### Conversational AI Interface (NEW: Lightweight LLM)
+- **Powered by Claude 3.5 Haiku** - Fast, cost-effective AI responses
+- **Context-Aware** - Understands all 6 data modules simultaneously
 - Natural language query processing
-- Intelligent intent recognition
-- Context-aware responses
+- Intelligent intent recognition and smart data filtering
 - Rich data cards for visual information display
 - Quick action buttons for common tasks
 - Suggested follow-up queries
@@ -31,6 +32,8 @@ A comprehensive conversational UI portal built for TATA Consultancy Services (TC
 ### Backend
 - **Node.js** - JavaScript runtime
 - **Express.js** - Web framework
+- **Claude 3.5 Haiku** - Lightweight LLM for conversational AI
+- **Anthropic AI SDK** - AI integration
 - **JSON Files** - Demo data storage (no database required)
 
 ## Project Structure
@@ -73,6 +76,7 @@ demoportal1/
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm (v7 or higher)
+- Anthropic API Key (get from https://console.anthropic.com/)
 
 ### Setup Steps
 
@@ -81,7 +85,12 @@ demoportal1/
 npm install
 ```
 
-2. Start the application (runs both frontend and backend):
+2. Create `.env` file in the root directory:
+```bash
+ANTHROPIC_API_KEY=your_api_key_here
+```
+
+3. Start the application (runs both frontend and backend):
 ```bash
 npm run dev
 ```
@@ -213,6 +222,17 @@ npm run dev:backend
 npm run build
 ```
 
+## AI Integration
+
+The conversational assistant uses **Claude 3.5 Haiku** for intelligent, context-aware responses. See [AI_INTEGRATION.md](AI_INTEGRATION.md) for detailed documentation.
+
+### Benefits
+- Fast response times (sub-second)
+- Cost-effective (~$0.0004 per query)
+- Understands natural language variations
+- Context-aware across all 6 data modules
+- Intelligent data filtering
+
 ## Customization
 
 ### Adding New Data
@@ -225,7 +245,9 @@ Edit the JSON files in the `data/` directory to add or modify:
 - Projects
 
 ### Modifying the Chatbot
-Edit `backend/server.js` to add new intents or modify response logic in the `/api/chat` endpoint.
+- AI logic: Edit `backend/aiService.js` for LLM configuration
+- Endpoints: Edit `backend/server.js` for API modifications
+- See [AI_INTEGRATION.md](AI_INTEGRATION.md) for details
 
 ## Browser Support
 - Chrome (recommended)

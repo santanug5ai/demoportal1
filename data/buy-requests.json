@@ -1,0 +1,297 @@
+[
+  {
+    "id": "BUY-001",
+    "portfolioId": "PORT-CMI-001",
+    "portfolioTitle": "TCS CMI Cognitive Intelligence Platform",
+    "requestedBy": "John Smith",
+    "requestDate": "2024-03-18",
+    "selectedSkills": [
+      "SKILL-001",
+      "SKILL-003",
+      "SKILL-015"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-004",
+      "CERT-012"
+    ],
+    "quantity": 2,
+    "duration": "6 months",
+    "budget": 250000,
+    "workflowStatus": "Draft",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2024-03-18",
+        "actor": "John Smith",
+        "comments": "Initial request created"
+      }
+    ],
+    "businessJustification": "Need ML experts for market analysis project",
+    "priority": "High"
+  },
+  {
+    "id": "BUY-002",
+    "portfolioId": "PORT-002",
+    "portfolioTitle": "Cloud Migration & Modernization Suite",
+    "requestedBy": "Sarah Johnson",
+    "requestDate": "2024-03-15",
+    "selectedSkills": [
+      "SKILL-002",
+      "SKILL-009"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-001",
+      "CERT-002"
+    ],
+    "quantity": 3,
+    "duration": "12 months",
+    "budget": 500000,
+    "workflowStatus": "Pending Approval",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2024-03-15",
+        "actor": "Sarah Johnson",
+        "comments": "Initial request created"
+      },
+      {
+        "status": "Submitted",
+        "date": "2024-03-16",
+        "actor": "Sarah Johnson",
+        "comments": "Submitted for manager approval"
+      },
+      {
+        "status": "Pending Approval",
+        "date": "2024-03-16",
+        "actor": "System",
+        "comments": "Awaiting manager approval"
+      }
+    ],
+    "businessJustification": "Cloud migration project for 200+ applications",
+    "priority": "Critical"
+  },
+  {
+    "id": "BUY-003",
+    "portfolioId": "PORT-007",
+    "portfolioTitle": "DevOps Transformation Suite",
+    "requestedBy": "Michael Chen",
+    "requestDate": "2024-03-10",
+    "selectedSkills": [
+      "SKILL-008",
+      "SKILL-005"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-016",
+      "CERT-003"
+    ],
+    "quantity": 1,
+    "duration": "3 months",
+    "budget": 100000,
+    "workflowStatus": "Approved",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2024-03-10",
+        "actor": "Michael Chen",
+        "comments": "Initial request created"
+      },
+      {
+        "status": "Submitted",
+        "date": "2024-03-11",
+        "actor": "Michael Chen",
+        "comments": "Submitted for approval"
+      },
+      {
+        "status": "Pending Approval",
+        "date": "2024-03-11",
+        "actor": "System",
+        "comments": "Awaiting manager approval"
+      },
+      {
+        "status": "Approved",
+        "date": "2024-03-12",
+        "actor": "Director - IT",
+        "comments": "Approved. Critical for Q2 DevOps initiative"
+      }
+    ],
+    "businessJustification": "Implement CI/CD pipeline for faster deployments",
+    "priority": "High",
+    "approver": "Director - IT",
+    "approvalDate": "2024-03-12"
+  },
+  {
+    "id": "BUY-004",
+    "portfolioId": "PORT-010",
+    "portfolioTitle": "SAP S/4HANA Transformation",
+    "requestedBy": "Lisa Anderson",
+    "requestDate": "2024-03-05",
+    "selectedSkills": [
+      "SKILL-011"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-006"
+    ],
+    "quantity": 5,
+    "duration": "18 months",
+    "budget": 1200000,
+    "workflowStatus": "In Fulfillment",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2024-03-05",
+        "actor": "Lisa Anderson",
+        "comments": "Initial request created"
+      },
+      {
+        "status": "Submitted",
+        "date": "2024-03-06",
+        "actor": "Lisa Anderson",
+        "comments": "Submitted for approval"
+      },
+      {
+        "status": "Pending Approval",
+        "date": "2024-03-06",
+        "actor": "System",
+        "comments": "Awaiting manager approval"
+      },
+      {
+        "status": "Approved",
+        "date": "2024-03-08",
+        "actor": "VP - Operations",
+        "comments": "Approved. Critical ERP transformation"
+      },
+      {
+        "status": "In Fulfillment",
+        "date": "2024-03-10",
+        "actor": "Resource Manager",
+        "comments": "Sourcing SAP consultants"
+      }
+    ],
+    "businessJustification": "Legacy ERP system modernization",
+    "priority": "Critical",
+    "approver": "VP - Operations",
+    "approvalDate": "2024-03-08",
+    "fulfillmentProgress": 60
+  },
+  {
+    "id": "BUY-005",
+    "portfolioId": "PORT-005",
+    "portfolioTitle": "Cybersecurity Operations Center (SOC)",
+    "requestedBy": "David Rodriguez",
+    "requestDate": "2024-02-28",
+    "selectedSkills": [
+      "SKILL-006"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-007",
+      "CERT-020"
+    ],
+    "quantity": 4,
+    "duration": "24 months",
+    "budget": 800000,
+    "workflowStatus": "Fulfilled",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2024-02-28",
+        "actor": "David Rodriguez",
+        "comments": "Initial request created"
+      },
+      {
+        "status": "Submitted",
+        "date": "2024-03-01",
+        "actor": "David Rodriguez",
+        "comments": "Submitted for approval"
+      },
+      {
+        "status": "Pending Approval",
+        "date": "2024-03-01",
+        "actor": "System",
+        "comments": "Awaiting manager approval"
+      },
+      {
+        "status": "Approved",
+        "date": "2024-03-02",
+        "actor": "CISO",
+        "comments": "Approved. Security is top priority"
+      },
+      {
+        "status": "In Fulfillment",
+        "date": "2024-03-03",
+        "actor": "Resource Manager",
+        "comments": "Sourcing cybersecurity experts"
+      },
+      {
+        "status": "Fulfilled",
+        "date": "2024-03-15",
+        "actor": "Resource Manager",
+        "comments": "All resources allocated"
+      }
+    ],
+    "businessJustification": "Build 24/7 security operations center",
+    "priority": "Critical",
+    "approver": "CISO",
+    "approvalDate": "2024-03-02",
+    "fulfillmentProgress": 100,
+    "fulfilledDate": "2024-03-15"
+  },
+  {
+    "id": "BUY-006",
+    "portfolioId": "PORT-CMI-001",
+    "portfolioTitle": "TCS CMI Cognitive Intelligence Platform",
+    "requestedBy": "Santanu",
+    "requestDate": "2025-11-21",
+    "selectedSkills": [
+      "SKILL-001",
+      "SKILL-003"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-004",
+      "CERT-012"
+    ],
+    "quantity": 1,
+    "duration": "3 months",
+    "budget": 0,
+    "workflowStatus": "Draft",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2025-11-21",
+        "actor": "Santanu",
+        "comments": "Initial request created"
+      }
+    ],
+    "businessJustification": "",
+    "priority": "Medium"
+  },
+  {
+    "id": "BUY-007",
+    "portfolioId": "PORT-CMI-001",
+    "portfolioTitle": "TCS CMI Cognitive Intelligence Platform",
+    "requestedBy": "Santanu Ghosh",
+    "requestDate": "2025-11-21",
+    "selectedSkills": [
+      "SKILL-001",
+      "SKILL-003",
+      "SKILL-015"
+    ],
+    "autoSelectedCertifications": [
+      "CERT-004",
+      "CERT-012"
+    ],
+    "quantity": 1,
+    "duration": "12 months",
+    "budget": "150000",
+    "workflowStatus": "Draft",
+    "workflowHistory": [
+      {
+        "status": "Draft",
+        "date": "2025-11-21",
+        "actor": "Santanu Ghosh",
+        "comments": "Initial request created"
+      }
+    ],
+    "businessJustification": "business test",
+    "priority": "High"
+  }
+]

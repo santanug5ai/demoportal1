@@ -1,7 +1,7 @@
 {
   "name": "tcs-conversational-portal",
-  "version": "1.1.0",
-  "description": "TCS Digital Portal with Conversational UI for RFP Demo - Enhanced AI Chat",
+  "version": "1.2.0",
+  "description": "TCS Digital Portal with AI-Powered Conversational UI - Lightweight LLM Integration",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
@@ -11,15 +11,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "@anthropic-ai/sdk": "^0.70.0",
+    "axios": "^1.6.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.6.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.0"
   }
 }

@@ -1,21 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import staticDataService from './services/staticDataService';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import ChatInterface from './components/ChatInterface';
+import Sidebar from './components/SidebarNew';
 import Dashboard from './components/Dashboard';
-import PortfolioPage from './components/PortfolioPage';
-import SkillsPage from './components/SkillsPage';
-import CertificationsPage from './components/CertificationsPage';
-import EngagementsPage from './components/EngagementsPage';
+import PortfolioPageNew from './components/PortfolioPageNew';
+import EngagementsPageNew from './components/EngagementsPageNew';
+import BuyRequestsPage from './components/BuyRequestsPage';
 import IncubationPage from './components/IncubationPage';
-import ProjectsPage from './components/ProjectsPage';
+import FloatingChatBot from './components/FloatingChatBot';
 import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [activeView, setActiveView] = useState('chat');
+  const [activeView, setActiveView] = useState('dashboard');
   const [stats, setStats] = useState(null);
 
   useEffect(() => {
@@ -44,17 +42,15 @@ function App() {
           stats={stats}
         />
         <main className={`main-content ${!sidebarOpen ? 'sidebar-closed' : ''}`}>
-          {activeView === 'chat' && <ChatInterface />}
           {activeView === 'dashboard' && <Dashboard stats={stats} />}
-          {activeView === 'portfolio' && <PortfolioPage />}
-          {activeView === 'skills' && <SkillsPage />}
-          {activeView === 'certifications' && <CertificationsPage />}
-          {activeView === 'engagements' && <EngagementsPage />}
+          {activeView === 'portfolio' && <PortfolioPageNew />}
+          {activeView === 'buy-requests' && <BuyRequestsPage />}
+          {activeView === 'engagements' && <EngagementsPageNew />}
           {activeView === 'incubation' && <IncubationPage />}
-          {activeView === 'projects' && <ProjectsPage />}
-          <Footer />
+          <Footer onNavigate={setActiveView} />
         </main>
       </div>
+      <FloatingChatBot onNavigate={setActiveView} />
     </div>
   );
 }
