@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './EngagementsPageNew.css';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import engagementsData from '../data/engagements-new.json';
 
 function EngagementsPageNew() {
   const [engagements, setEngagements] = useState([]);
@@ -14,27 +12,18 @@ function EngagementsPageNew() {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
 
   useEffect(() => {
-    fetchEngagements();
-  }, []);
-
-  const fetchEngagements = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`${API_BASE_URL}/api/engagements`);
-      setEngagements(response.data);
+    // Simulate loading for consistent UX
+    setLoading(true);
+    setTimeout(() => {
+      setEngagements(engagementsData);
 
       // Extract unique statuses
-      const statuses = ['All', ...new Set(response.data.map(e => e.status))];
+      const statuses = ['All', ...new Set(engagementsData.map(e => e.status))];
       setAvailableStatuses(statuses);
 
-      setError(null);
-    } catch (err) {
-      console.error('Error fetching engagements:', err);
-      setError('Failed to load engagements');
-    } finally {
       setLoading(false);
-    }
-  };
+    }, 300);
+  }, []);
 
   const handleSort = (key) => {
     let direction = 'asc';

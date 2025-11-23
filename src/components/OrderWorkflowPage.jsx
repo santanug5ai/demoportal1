@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './OrderWorkflowPage.css';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import buyRequestsData from '../data/buy-requests.json';
 
 function OrderWorkflowPage({ orderId, onClose }) {
   const [order, setOrder] = useState(null);
@@ -11,23 +9,20 @@ function OrderWorkflowPage({ orderId, onClose }) {
 
   useEffect(() => {
     if (orderId) {
-      fetchOrderDetails();
+      // Simulate loading for consistent UX
+      setLoading(true);
+      setTimeout(() => {
+        const foundOrder = buyRequestsData.find(req => req.id === orderId);
+        if (foundOrder) {
+          setOrder(foundOrder);
+          setError(null);
+        } else {
+          setError('Order not found');
+        }
+        setLoading(false);
+      }, 300);
     }
   }, [orderId]);
-
-  const fetchOrderDetails = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`${API_BASE_URL}/api/buy-requests/${orderId}`);
-      setOrder(response.data);
-      setError(null);
-    } catch (err) {
-      console.error('Error fetching order details:', err);
-      setError('Failed to load order details');
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const getStatusColor = (status) => {
     const colors = {

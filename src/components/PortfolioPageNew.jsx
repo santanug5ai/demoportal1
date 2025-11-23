@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './PortfolioPage.css';
 import BuyRequestForm from './BuyRequestForm';
 import OrderWorkflowPage from './OrderWorkflowPage';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import portfolioData from '../data/portfolio-new.json';
 
 function PortfolioPageNew() {
   const [portfolios, setPortfolios] = useState([]);
@@ -18,22 +16,13 @@ function PortfolioPageNew() {
   const [createdOrderId, setCreatedOrderId] = useState(null);
 
   useEffect(() => {
-    fetchPortfolios();
-  }, []);
-
-  const fetchPortfolios = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`${API_BASE_URL}/api/portfolio`);
-      setPortfolios(response.data);
-      setError(null);
-    } catch (err) {
-      console.error('Error fetching portfolios:', err);
-      setError('Failed to load portfolios');
-    } finally {
+    // Simulate loading for consistent UX
+    setLoading(true);
+    setTimeout(() => {
+      setPortfolios(portfolioData);
       setLoading(false);
-    }
-  };
+    }, 300);
+  }, []);
 
   const categories = ['All', ...new Set(portfolios.map(p => p.category))];
 

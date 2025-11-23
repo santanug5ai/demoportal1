@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './BuyRequestsPage.css';
 import OrderWorkflowPage from './OrderWorkflowPage';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import buyRequestsData from '../data/buy-requests.json';
 
 function BuyRequestsPage() {
   const [buyRequests, setBuyRequests] = useState([]);
@@ -15,22 +13,13 @@ function BuyRequestsPage() {
   const [selectedOrderId, setSelectedOrderId] = useState(null);
 
   useEffect(() => {
-    fetchBuyRequests();
-  }, []);
-
-  const fetchBuyRequests = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`${API_BASE_URL}/api/buy-requests`);
-      setBuyRequests(response.data);
-      setError(null);
-    } catch (err) {
-      console.error('Error fetching buy requests:', err);
-      setError('Failed to load buy requests');
-    } finally {
+    // Simulate loading for consistent UX
+    setLoading(true);
+    setTimeout(() => {
+      setBuyRequests(buyRequestsData);
       setLoading(false);
-    }
-  };
+    }, 300);
+  }, []);
 
   const workflowStatuses = ['All', 'Draft', 'Pending Approval', 'Approved', 'In Fulfillment', 'Fulfilled'];
 

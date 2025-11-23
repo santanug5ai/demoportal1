@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ENG-001",
+    "type": "SME",
+    "clientName": "Global Pharmaceuticals Inc",
+    "industry": "Healthcare",
+    "skillsRequired": ["SAP S/4HANA", "Supply Chain", "GxP Compliance"],
+    "duration": "6 months",
+    "status": "Approved",
+    "priority": "High",
+    "description": "Need SME for SAP S/4HANA supply chain transformation in pharma industry",
+    "requestDate": "2024-03-01",
+    "assignedTo": "Rajesh Kumar",
+    "projects": []
+  },
+  {
+    "id": "ENG-002",
+    "type": "Pre-sales",
+    "clientName": "Metropolitan Bank",
+    "industry": "Banking",
+    "skillsRequired": ["Cloud Migration", "Azure", "Financial Services"],
+    "duration": "2 weeks",
+    "status": "In Review",
+    "priority": "Critical",
+    "description": "Pre-sales support for cloud migration RFP response",
+    "requestDate": "2024-03-15",
+    "assignedTo": null,
+    "projects": [
+      {
+        "id": "PROJ-001",
+        "projectName": "Digital Banking Transformation",
+        "status": "In Progress",
+        "progress": 65,
+        "startDate": "2023-09-01",
+        "endDate": "2024-06-30",
+        "team": ["Rajesh Kumar", "Priya Sharma", "Amit Patel", "Kavita Reddy"],
+        "budget": 5000000,
+        "risks": ["Integration complexity with legacy systems", "Regulatory compliance delays"],
+        "reports": [
+          {"date": "2024-03-15", "type": "Monthly", "summary": "Successfully migrated 60% of services to cloud. Customer portal UAT in progress.", "url": "/reports/proj001-mar2024.pdf"},
+          {"date": "2024-02-28", "type": "Monthly", "summary": "Completed mobile app development. Starting security penetration testing.", "url": "/reports/proj001-feb2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-003",
+    "type": "Consultant",
+    "clientName": "Retail Chain Network",
+    "industry": "Retail",
+    "skillsRequired": ["AI/ML", "Computer Vision", "Edge Computing"],
+    "duration": "4 months",
+    "status": "Assigned",
+    "priority": "High",
+    "description": "AI consultant for smart checkout implementation using TCS CMI solutions",
+    "requestDate": "2024-02-20",
+    "assignedTo": "Priya Sharma",
+    "projects": []
+  },
+  {
+    "id": "ENG-004",
+    "type": "Professional",
+    "clientName": "Insurance Corp Ltd",
+    "industry": "Insurance",
+    "skillsRequired": ["RPA", "UiPath", "Claims Processing"],
+    "duration": "8 months",
+    "status": "Pending",
+    "priority": "Medium",
+    "description": "RPA professional for claims automation project",
+    "requestDate": "2024-03-10",
+    "assignedTo": null,
+    "projects": [
+      {
+        "id": "PROJ-007",
+        "projectName": "RPA for Claims Processing",
+        "status": "Completed",
+        "progress": 100,
+        "startDate": "2023-06-01",
+        "endDate": "2024-01-31",
+        "team": ["Mohan Das", "Prakash Yadav", "Neelam Singh"],
+        "budget": 1800000,
+        "risks": [],
+        "reports": [
+          {"date": "2024-01-31", "type": "Milestone", "summary": "Project successfully completed. 25 bots deployed processing 5000+ claims daily with 99.2% accuracy.", "url": "/reports/proj007-completion-jan2024.pdf"},
+          {"date": "2024-01-15", "type": "Monthly", "summary": "Hypercare support ongoing. Average claims processing time reduced from 5 days to 4 hours.", "url": "/reports/proj007-jan2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-005",
+    "type": "SME",
+    "clientName": "Manufacturing Conglomerate",
+    "industry": "Manufacturing",
+    "skillsRequired": ["IoT", "Predictive Maintenance", "Azure IoT"],
+    "duration": "3 months",
+    "status": "Completed",
+    "priority": "Medium",
+    "description": "IoT SME for predictive maintenance system deployment",
+    "requestDate": "2024-01-05",
+    "assignedTo": "Amit Patel",
+    "projects": [
+      {
+        "id": "PROJ-003",
+        "projectName": "Cloud Migration - SAP Landscape",
+        "status": "In Progress",
+        "progress": 45,
+        "startDate": "2024-01-10",
+        "endDate": "2024-12-31",
+        "team": ["Lakshmi Narayan", "Ramesh Iyer", "Sanjay Gupta"],
+        "budget": 8000000,
+        "risks": ["Downtime during cutover", "Performance tuning challenges", "Cost overruns"],
+        "reports": [
+          {"date": "2024-03-18", "type": "Monthly", "summary": "Development system migrated successfully. Quality system migration scheduled for April.", "url": "/reports/proj003-mar2024.pdf"},
+          {"date": "2024-02-20", "type": "Monthly", "summary": "Infrastructure setup completed. Sandbox migration and testing in progress.", "url": "/reports/proj003-feb2024.pdf"}
+        ]
+      },
+      {
+        "id": "PROJ-005",
+        "projectName": "IoT-Enabled Smart Factory",
+        "status": "In Progress",
+        "progress": 55,
+        "startDate": "2023-10-01",
+        "endDate": "2024-07-31",
+        "team": ["Sunil Kumar", "Manoj Tiwari", "Priyanka Bhat", "Aditya Narayan"],
+        "budget": 4500000,
+        "risks": ["Sensor integration with old machinery", "Network connectivity in factory floor"],
+        "reports": [
+          {"date": "2024-03-14", "type": "Monthly", "summary": "1500 sensors deployed across 3 production lines. Real-time dashboard operational.", "url": "/reports/proj005-mar2024.pdf"},
+          {"date": "2024-02-28", "type": "Milestone", "summary": "Predictive maintenance module completed. Detected anomalies preventing 2 equipment failures.", "url": "/reports/proj005-milestone-feb2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-006",
+    "type": "Pre-sales",
+    "clientName": "Telecom Giant",
+    "industry": "Telecommunications",
+    "skillsRequired": ["5G", "Network Optimization", "AI/ML"],
+    "duration": "3 weeks",
+    "status": "Approved",
+    "priority": "Critical",
+    "description": "Pre-sales engagement for 5G network optimization RFP",
+    "requestDate": "2024-03-12",
+    "assignedTo": "Suresh Menon",
+    "projects": [
+      {
+        "id": "PROJ-006",
+        "projectName": "Customer 360 Platform",
+        "status": "In Progress",
+        "progress": 70,
+        "startDate": "2023-07-15",
+        "endDate": "2024-05-31",
+        "team": ["Priya Sharma", "Vivek Pandey", "Riya Desai", "Karthik Venkat"],
+        "budget": 6000000,
+        "risks": ["Data migration complexity", "Performance at scale"],
+        "reports": [
+          {"date": "2024-03-16", "type": "Monthly", "summary": "Customer data platform integrated with 12 source systems. 85% data quality achieved.", "url": "/reports/proj006-mar2024.pdf"},
+          {"date": "2024-02-25", "type": "Monthly", "summary": "Master data management rules defined. Real-time sync operational for billing data.", "url": "/reports/proj006-feb2024.pdf"}
+        ]
+      },
+      {
+        "id": "PROJ-018",
+        "projectName": "5G Network Optimization",
+        "status": "In Progress",
+        "progress": 55,
+        "startDate": "2024-01-05",
+        "endDate": "2024-10-31",
+        "team": ["Suresh Menon", "Rohit Sharma", "Pallavi Nair"],
+        "budget": 7000000,
+        "risks": ["Vendor coordination", "Spectrum availability", "Weather impact on deployment"],
+        "reports": [
+          {"date": "2024-03-17", "type": "Monthly", "summary": "AI-driven optimization improved coverage by 35% in 10 zones. Network congestion reduced by 40%.", "url": "/reports/proj018-mar2024.pdf"},
+          {"date": "2024-02-20", "type": "Monthly", "summary": "ML models deployed for predictive network planning. Real-time QoS monitoring implemented.", "url": "/reports/proj018-feb2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-007",
+    "type": "Consultant",
+    "clientName": "E-Commerce Platform",
+    "industry": "E-commerce",
+    "skillsRequired": ["Microservices", "Kubernetes", "DevOps"],
+    "duration": "6 months",
+    "status": "In Review",
+    "priority": "High",
+    "description": "Architecture consultant for microservices transformation",
+    "requestDate": "2024-03-08",
+    "assignedTo": null,
+    "projects": [
+      {
+        "id": "PROJ-009",
+        "projectName": "Data Lake & Analytics Platform",
+        "status": "In Progress",
+        "progress": 60,
+        "startDate": "2023-12-01",
+        "endDate": "2024-08-31",
+        "team": ["Ashok Kumar", "Rajeev Nair", "Swati Pillai", "Gaurav Saxena"],
+        "budget": 5500000,
+        "risks": ["Data governance framework implementation", "Cost optimization"],
+        "reports": [
+          {"date": "2024-03-11", "type": "Monthly", "summary": "Data lake ingesting 50TB data daily from 30 sources. Self-service BI portal launched for business users.", "url": "/reports/proj009-mar2024.pdf"},
+          {"date": "2024-02-18", "type": "Monthly", "summary": "ETL pipelines operational. Real-time streaming analytics enabled for clickstream data.", "url": "/reports/proj009-feb2024.pdf"}
+        ]
+      },
+      {
+        "id": "PROJ-011",
+        "projectName": "AI-Powered Customer Support",
+        "status": "In Progress",
+        "progress": 50,
+        "startDate": "2024-01-20",
+        "endDate": "2024-09-30",
+        "team": ["Rakesh Mohan", "Nisha Verma", "Ananya Rao"],
+        "budget": 2800000,
+        "risks": ["Chatbot accuracy in complex queries", "Multilingual support challenges"],
+        "reports": [
+          {"date": "2024-03-15", "type": "Monthly", "summary": "Chatbot handling 60% of tier-1 queries. Sentiment analysis model deployed with 85% accuracy.", "url": "/reports/proj011-mar2024.pdf"},
+          {"date": "2024-02-20", "type": "Monthly", "summary": "NLP model training completed for English. Starting Hindi and Spanish training.", "url": "/reports/proj011-feb2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-008",
+    "type": "SME",
+    "clientName": "Energy Corporation",
+    "industry": "Energy",
+    "skillsRequired": ["Blockchain", "Smart Contracts", "Energy Trading"],
+    "duration": "5 months",
+    "status": "Pending",
+    "priority": "Medium",
+    "description": "Blockchain SME for energy trading platform",
+    "requestDate": "2024-03-14",
+    "assignedTo": null,
+    "projects": []
+  },
+  {
+    "id": "ENG-009",
+    "type": "Professional",
+    "clientName": "Government Agency",
+    "industry": "Government",
+    "skillsRequired": ["Cybersecurity", "SIEM", "Compliance"],
+    "duration": "12 months",
+    "status": "Assigned",
+    "priority": "Critical",
+    "description": "Cybersecurity professional for SOC implementation",
+    "requestDate": "2024-02-25",
+    "assignedTo": "Deepak Singh",
+    "projects": [
+      {
+        "id": "PROJ-020",
+        "projectName": "Low-Code Application Platform",
+        "status": "In Progress",
+        "progress": 75,
+        "startDate": "2023-08-01",
+        "endDate": "2024-05-31",
+        "team": ["Riya Desai", "Sanjana Reddy", "Madhuri Iyer"],
+        "budget": 1800000,
+        "risks": ["Citizen developer governance", "Security compliance"],
+        "reports": [
+          {"date": "2024-03-18", "type": "Monthly", "summary": "180 applications created by citizen developers. 60% reduction in IT backlog achieved.", "url": "/reports/proj020-mar2024.pdf"},
+          {"date": "2024-02-28", "type": "Monthly", "summary": "Power Platform deployed. 250 users trained. Governance framework implemented.", "url": "/reports/proj020-feb2024.pdf"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENG-010",
+    "type": "Pre-sales",
+    "clientName": "Automotive Manufacturer",
+    "industry": "Automotive",
+    "skillsRequired": ["Digital Twin", "IoT", "Simulation"],
+    "duration": "2 weeks",
+    "status": "Approved",
+    "priority": "High",
+    "description": "Pre-sales for digital twin manufacturing solution",
+    "requestDate": "2024-03-11",
+    "assignedTo": "Kavita Reddy",
+    "projects": []
+  }
+]

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './BuyRequestForm.css';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+import buyRequestsData from '../data/buy-requests.json';
 
 function BuyRequestForm({ portfolio, onClose, onSuccess }) {
   const [formData, setFormData] = useState({
@@ -72,12 +70,40 @@ function BuyRequestForm({ portfolio, onClose, onSuccess }) {
     setError(null);
 
     try {
-      const response = await axios.post(`${API_BASE_URL}/api/buy-requests`, {
-        ...formData,
-        autoSelectedCertifications
-      });
+      // Simulate API call with timeout
+      await new Promise(resolve => setTimeout(resolve, 500));
 
-      onSuccess(response.data);
+      // Create new buy request
+      const newBuyRequest = {
+        id: `BUY-${String(buyRequestsData.length + 1).padStart(3, '0')}`,
+        portfolioId: formData.portfolioId,
+        portfolioTitle: portfolio.title,
+        requestedBy: formData.requestedBy,
+        requestDate: new Date().toISOString().split('T')[0],
+        selectedSkills: formData.selectedSkills,
+        autoSelectedCertifications: autoSelectedCertifications,
+        quantity: formData.quantity,
+        duration: formData.duration,
+        budget: formData.budget,
+        workflowStatus: 'Draft',
+        workflowHistory: [
+          {
+            status: 'Draft',
+            date: new Date().toISOString().split('T')[0],
+            actor: formData.requestedBy,
+            comments: 'Initial request created'
+          }
+        ],
+        businessJustification: formData.businessJustification,
+        priority: formData.priority
+      };
+
+      // Save to localStorage for demo
+      const existingRequests = JSON.parse(localStorage.getItem('buyRequests') || '[]');
+      existingRequests.push(newBuyRequest);
+      localStorage.setItem('buyRequests', JSON.stringify(existingRequests));
+
+      onSuccess(newBuyRequest);
     } catch (err) {
       console.error('Error submitting buy request:', err);
       setError('Failed to submit buy request. Please try again.');

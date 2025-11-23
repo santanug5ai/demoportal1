@@ -1,0 +1,371 @@
+[
+  {
+    "id": "PORT-CMI-001",
+    "title": "TCS CMI Cognitive Intelligence Platform",
+    "category": "AI/ML",
+    "description": "TCS Cognitive Market Insights (CMI) powered platform that combines AI, ML, and advanced analytics to deliver actionable business intelligence and predictive insights across industries",
+    "useCases": [
+      "Real-time market trend analysis using TCS CMI algorithms",
+      "Predictive customer behavior modeling with 95% accuracy",
+      "Automated competitor intelligence gathering and analysis",
+      "Dynamic pricing optimization based on market sentiment",
+      "Risk assessment and mitigation using cognitive insights"
+    ],
+    "caseStudies": [
+      {
+        "client": "Fortune 500 Financial Institution",
+        "industry": "Banking & Finance",
+        "challenge": "Needed real-time market insights to stay competitive in volatile markets while reducing analyst workload",
+        "solution": "Deployed TCS CMI platform with cognitive analytics, NLP-based news sentiment analysis, and ML-driven predictive models integrated with existing trading systems",
+        "results": "78% reduction in manual analysis time, 45% improvement in trading decisions, $12M additional revenue in Q1, 99.7% prediction accuracy for market movements"
+      }
+    ],
+    "technologies": [
+      "TCS CMI",
+      "Python",
+      "TensorFlow",
+      "Apache Spark",
+      "Azure Cognitive Services",
+      "Power BI",
+      "NLP"
+    ],
+    "skills": [
+      {
+        "id": "SKILL-001",
+        "name": "Python Programming",
+        "category": "Technical",
+        "level": "Expert",
+        "description": "Advanced Python development including frameworks like Django, Flask, FastAPI",
+        "relatedTechnologies": ["Django", "Flask", "FastAPI", "NumPy", "Pandas"],
+        "demandLevel": "High"
+      },
+      {
+        "id": "SKILL-003",
+        "name": "Machine Learning",
+        "category": "Technical",
+        "level": "Advanced",
+        "description": "ML model development, training, and deployment at scale",
+        "relatedTechnologies": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "MLflow"],
+        "demandLevel": "High"
+      },
+      {
+        "id": "SKILL-015",
+        "name": "Natural Language Processing",
+        "category": "Technical",
+        "level": "Advanced",
+        "description": "Text analytics, chatbots, and language understanding systems",
+        "relatedTechnologies": ["spaCy", "NLTK", "BERT", "GPT", "Transformers"],
+        "demandLevel": "High"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "CERT-004",
+        "name": "TCS Cognitive Services Specialist",
+        "provider": "TCS",
+        "category": "AI/ML",
+        "validityPeriod": "2 years",
+        "description": "TCS internal certification for AI and cognitive solutions expertise",
+        "prerequisites": ["Python programming", "ML fundamentals"],
+        "benefits": ["TCS internal recognition", "CMI project opportunities", "AI specialization"],
+        "autoSelectedForSkill": ["SKILL-003", "SKILL-015"]
+      },
+      {
+        "id": "CERT-012",
+        "name": "TensorFlow Developer Certificate",
+        "provider": "Google",
+        "category": "AI/ML",
+        "validityPeriod": "3 years",
+        "description": "TensorFlow framework expertise for ML model development",
+        "prerequisites": ["Python programming", "ML basics"],
+        "benefits": ["Google recognition", "AI/ML credibility", "Model development skills"],
+        "autoSelectedForSkill": ["SKILL-001", "SKILL-003"]
+      }
+    ],
+    "createdDate": "2024-03-20"
+  },
+  {
+    "id": "PORT-002",
+    "title": "Cloud Migration & Modernization Suite",
+    "category": "Cloud",
+    "description": "End-to-end cloud migration solution for legacy applications to AWS/Azure/GCP",
+    "useCases": [
+      "Legacy application assessment and migration planning",
+      "Lift-and-shift migration",
+      "Re-platforming and refactoring",
+      "Cloud-native application development"
+    ],
+    "caseStudies": [
+      {
+        "client": "Financial Services Inc",
+        "industry": "Banking",
+        "challenge": "Outdated on-premise infrastructure limiting scalability and innovation",
+        "solution": "Migrated 200+ applications to Azure with containerization and microservices",
+        "results": "65% cost savings, 99.99% uptime, 10x faster deployment cycles"
+      }
+    ],
+    "technologies": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "Terraform"
+    ],
+    "skills": [
+      {
+        "id": "SKILL-002",
+        "name": "AWS Cloud Architecture",
+        "category": "Technical",
+        "level": "Expert",
+        "description": "Design and implementation of scalable cloud solutions on AWS",
+        "relatedTechnologies": ["EC2", "S3", "Lambda", "RDS", "CloudFormation"],
+        "demandLevel": "High"
+      },
+      {
+        "id": "SKILL-009",
+        "name": "Azure Cloud Solutions",
+        "category": "Technical",
+        "level": "Expert",
+        "description": "Comprehensive Azure cloud service implementation and management",
+        "relatedTechnologies": ["Azure Functions", "AKS", "Azure SQL", "Logic Apps", "ARM Templates"],
+        "demandLevel": "High"
+      },
+      {
+        "id": "SKILL-005",
+        "name": "Kubernetes Orchestration",
+        "category": "Technical",
+        "level": "Advanced",
+        "description": "Container orchestration and management using Kubernetes",
+        "relatedTechnologies": ["Docker", "Helm", "Istio", "Prometheus", "Grafana"],
+        "demandLevel": "High"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "CERT-001",
+        "name": "AWS Certified Solutions Architect - Professional",
+        "provider": "Amazon Web Services",
+        "category": "Cloud",
+        "validityPeriod": "3 years",
+        "description": "Advanced AWS architecture design and implementation certification",
+        "prerequisites": ["AWS Solutions Architect Associate", "1+ years AWS experience"],
+        "benefits": ["Industry recognition", "Advanced cloud skills", "Higher salary potential"],
+        "autoSelectedForSkill": ["SKILL-002"]
+      },
+      {
+        "id": "CERT-002",
+        "name": "Microsoft Azure Solutions Architect Expert",
+        "provider": "Microsoft",
+        "category": "Cloud",
+        "validityPeriod": "2 years",
+        "description": "Expert-level Azure solution design and implementation",
+        "prerequisites": ["Azure Fundamentals", "Azure Administrator Associate"],
+        "benefits": ["Microsoft recognition", "Enterprise cloud expertise", "Career advancement"],
+        "autoSelectedForSkill": ["SKILL-009"]
+      },
+      {
+        "id": "CERT-003",
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "provider": "Cloud Native Computing Foundation",
+        "category": "DevOps",
+        "validityPeriod": "3 years",
+        "description": "Kubernetes cluster administration and management certification",
+        "prerequisites": ["Basic Linux skills", "Container knowledge"],
+        "benefits": ["Industry-standard certification", "High demand skill", "DevOps expertise"],
+        "autoSelectedForSkill": ["SKILL-005"]
+      }
+    ],
+    "createdDate": "2024-02-10"
+  },
+  {
+    "id": "PORT-007",
+    "title": "DevOps Transformation Suite",
+    "category": "DevOps",
+    "description": "Complete CI/CD pipeline automation and DevOps culture transformation",
+    "useCases": [
+      "Automated build and deployment",
+      "Infrastructure as Code",
+      "Continuous monitoring",
+      "Release management"
+    ],
+    "caseStudies": [
+      {
+        "client": "E-Commerce Giant",
+        "industry": "E-commerce",
+        "challenge": "Manual deployments causing delays and errors",
+        "solution": "Implemented Jenkins/GitLab CI/CD with automated testing and deployment",
+        "results": "Daily deployments enabled, 90% reduction in deployment errors, 5x faster time-to-market"
+      }
+    ],
+    "technologies": [
+      "Jenkins",
+      "GitLab",
+      "Ansible",
+      "Kubernetes",
+      "Prometheus"
+    ],
+    "skills": [
+      {
+        "id": "SKILL-008",
+        "name": "DevOps Engineering",
+        "category": "Technical",
+        "level": "Expert",
+        "description": "CI/CD pipeline automation and infrastructure as code",
+        "relatedTechnologies": ["Jenkins", "GitLab CI", "Terraform", "Ansible", "Azure DevOps"],
+        "demandLevel": "High"
+      },
+      {
+        "id": "SKILL-005",
+        "name": "Kubernetes Orchestration",
+        "category": "Technical",
+        "level": "Advanced",
+        "description": "Container orchestration and management using Kubernetes",
+        "relatedTechnologies": ["Docker", "Helm", "Istio", "Prometheus", "Grafana"],
+        "demandLevel": "High"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "CERT-016",
+        "name": "DevOps Institute Certified DevOps Engineer",
+        "provider": "DevOps Institute",
+        "category": "DevOps",
+        "validityPeriod": "3 years",
+        "description": "Comprehensive DevOps practices and toolchain certification",
+        "prerequisites": ["DevOps fundamentals", "CI/CD experience"],
+        "benefits": ["DevOps transformation leadership", "Tool expertise", "Process optimization"],
+        "autoSelectedForSkill": ["SKILL-008"]
+      },
+      {
+        "id": "CERT-003",
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "provider": "Cloud Native Computing Foundation",
+        "category": "DevOps",
+        "validityPeriod": "3 years",
+        "description": "Kubernetes cluster administration and management certification",
+        "prerequisites": ["Basic Linux skills", "Container knowledge"],
+        "benefits": ["Industry-standard certification", "High demand skill", "DevOps expertise"],
+        "autoSelectedForSkill": ["SKILL-005"]
+      }
+    ],
+    "createdDate": "2024-01-08"
+  },
+  {
+    "id": "PORT-010",
+    "title": "SAP S/4HANA Transformation",
+    "category": "ERP",
+    "description": "Enterprise resource planning modernization with SAP S/4HANA",
+    "useCases": [
+      "Legacy SAP upgrade",
+      "Business process reengineering",
+      "Master data management",
+      "Integration with third-party systems"
+    ],
+    "caseStudies": [
+      {
+        "client": "Manufacturing Conglomerate",
+        "industry": "Manufacturing",
+        "challenge": "Outdated ECC system limiting real-time insights",
+        "solution": "Migrated to SAP S/4HANA with Fiori UX and cloud integration",
+        "results": "Real-time analytics enabled, 40% faster processes, $3M annual savings"
+      }
+    ],
+    "technologies": [
+      "SAP S/4HANA",
+      "Fiori",
+      "ABAP",
+      "SAP Cloud Platform",
+      "APIs"
+    ],
+    "skills": [
+      {
+        "id": "SKILL-011",
+        "name": "SAP Consulting",
+        "category": "Domain",
+        "level": "Expert",
+        "description": "SAP implementation, customization, and optimization",
+        "relatedTechnologies": ["SAP S/4HANA", "ABAP", "Fiori", "SAP BTP", "SAP Analytics"],
+        "demandLevel": "High"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "CERT-006",
+        "name": "SAP Certified Application Associate - S/4HANA",
+        "provider": "SAP",
+        "category": "ERP",
+        "validityPeriod": "Lifetime",
+        "description": "SAP S/4HANA implementation and configuration expertise",
+        "prerequisites": ["SAP training course", "Hands-on experience"],
+        "benefits": ["SAP partner recognition", "ERP consulting opportunities", "High demand"],
+        "autoSelectedForSkill": ["SKILL-011"]
+      }
+    ],
+    "createdDate": "2024-01-25"
+  },
+  {
+    "id": "PORT-005",
+    "title": "Cybersecurity Operations Center (SOC)",
+    "category": "Security",
+    "description": "24/7 managed security operations with advanced threat detection and response",
+    "useCases": [
+      "Real-time threat monitoring",
+      "Security incident response",
+      "Vulnerability management",
+      "Compliance reporting"
+    ],
+    "caseStudies": [
+      {
+        "client": "HealthCare Systems",
+        "industry": "Healthcare",
+        "challenge": "Increasing cyber threats and HIPAA compliance requirements",
+        "solution": "Implemented SOC with SIEM, threat intelligence, and automated response",
+        "results": "99.9% threat detection rate, 80% faster incident response, full HIPAA compliance"
+      }
+    ],
+    "technologies": [
+      "Splunk",
+      "QRadar",
+      "CrowdStrike",
+      "Firewall",
+      "SIEM"
+    ],
+    "skills": [
+      {
+        "id": "SKILL-006",
+        "name": "Cybersecurity",
+        "category": "Technical",
+        "level": "Expert",
+        "description": "Application security, threat modeling, and secure architecture design",
+        "relatedTechnologies": ["SIEM", "Penetration Testing", "Cryptography", "Security Audits"],
+        "demandLevel": "High"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "CERT-007",
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "provider": "ISC2",
+        "category": "Security",
+        "validityPeriod": "3 years",
+        "description": "Advanced cybersecurity certification covering 8 security domains",
+        "prerequisites": ["5 years security experience", "Background check"],
+        "benefits": ["Security leadership role eligibility", "High salary", "Industry respect"],
+        "autoSelectedForSkill": ["SKILL-006"]
+      },
+      {
+        "id": "CERT-020",
+        "name": "Certified Ethical Hacker (CEH)",
+        "provider": "EC-Council",
+        "category": "Security",
+        "validityPeriod": "3 years",
+        "description": "Ethical hacking techniques and penetration testing",
+        "prerequisites": ["Network security knowledge", "2 years experience"],
+        "benefits": ["Security assessment skills", "Threat detection", "Defensive security"],
+        "autoSelectedForSkill": ["SKILL-006"]
+      }
+    ],
+    "createdDate": "2024-02-28"
+  }
+]
